@@ -1,0 +1,23 @@
+{
+    "class": "aves",
+    "orders": [
+        {
+            "name": "passeriformes",
+            "label": "雀形目",
+            "species": [
+                {
+                    "id": "sparrow",
+                    "name": "スズメ",
+                    "latin": "Passer montanus",
+                    "images": [
+                        "/images/aves/sparrow1.jpg",
+                        "/images/aves/sparrow2.jpg"
+                    ],
+                    "location": "日本",
+                    "date": "2025-03",
+                    "notes": "很常见的小鸟"
+                }
+            ]
+        }
+    ]
+}
