@@ -4,14 +4,14 @@
         {
             "name": "passeriformes",
             "label": "雀形目",
-            "icon": "/images/icon/スズメ.JPG",
+            "icon": "/icon/スズメ.JPG",
             "species": [
                 {
                     "id": "sparrow",
                     "name": "スズメ",
                     "latin": "Passer montanus",
                     "images": [
-                        "/images/icon/スズメ.JPG"
+                        "/icon/スズメ.JPG"
                     ]
                 }
             ]
