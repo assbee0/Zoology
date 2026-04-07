@@ -1,5 +1,7 @@
 import fs from "fs";
 import path from "path";
+import { JSX } from "react";
+
 
 export function getClassData(className: string) {
     const filePath = path.join(process.cwd(), "data", `${className}.json`);
@@ -9,4 +11,9 @@ export function getClassData(className: string) {
 
 export function getAllClasses() {
     return ["aves", "mammalia"];
+}
+
+export function getHeadingTag(depth: number): keyof JSX.IntrinsicElements {
+    const clamped = Math.min(Math.max(depth, 0), 5);
+    return (`h${clamped + 1}`) as keyof JSX.IntrinsicElements;
 }

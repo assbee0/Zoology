@@ -112,3 +112,187 @@
     0 0 10px rgba(182, 240, 255, 0.35);
   padding-left: 6px;
 }
+
+.tree {
+  background: #0b0b0f;
+  color: white;
+  padding: 20px;
+}
+
+/* 标题 */
+.heading {
+  font-weight: 800;
+  margin: 20px 0 10px;
+}
+
+/* 容器 */
+.node-block {
+  margin-left: 20px;
+}
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+
+/* ⭐ 4列 */
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* 卡片 */
+.card {
+  position: relative;
+  padding: 4px;
+  border-radius: 16px;
+
+  /* ⭐ glass effect */
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  text-align: center;
+  align-items: center;
+
+  /* 阴影层级 */
+  box-shadow:
+    0 8px 30px rgba(0, 0, 0, 0.35);
+
+  transition: all 0.25s ease;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-6px) scale(1.02);
+
+  border-color: rgba(255, 255, 255, 0.2);
+
+  box-shadow:
+    0 12px 40px rgba(0, 0, 0, 0.5),
+    0 0 20px rgba(120, 200, 255, 0.15);
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+
+  background: radial-gradient(circle at top left,
+      rgba(255, 255, 255, 0.08),
+      transparent 60%);
+
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+.card-img {
+  border-radius: 12px;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+
+  width: 100%;
+  height: 100%;
+
+  transition: transform 0.3s ease, filter 0.3s ease;
+
+  filter: saturate(1.05) contrast(1.05);
+}
+
+.card:hover .card-img {
+  transform: scale(1.05);
+  filter: saturate(1.2) contrast(1.1);
+}
+
+.card-text {
+  margin-top: 10px;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+
+  color: black;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.level-1 {
+  text-align: center;
+  font-size: 2.0em;
+  color: #1b3a4b;
+}
+
+.level-2 {
+  text-align: center;
+  font-size: 1.7em;
+  color: #2c5871;
+}
+
+.level-3 {
+  text-align: center;
+  font-size: 1.5em;
+  color: #3b7a89;
+}
+
+.level-4 {
+  text-align: center;
+  font-size: 1.3em;
+  color: #518c7c;
+}
+
+.level-5 {
+  text-align: center;
+  font-size: 1.1em;
+  color: #9a7d46;
+}
+
+.level-6 {
+  text-align: center;
+  font-size: 1.0em;
+  color: #a38f7b;
+}
+
+.body-aves {
+  margin: 0;
+  background-image: url(/image/sketch.png);
+  background-size: calc(max(50vw, 800px));
+  background-repeat: repeat;
+}
+
+.head-background {
+  width: 100%;
+  height: 30dvh;
+  margin-bottom: 10dvh;
+  position: relative;
+  background-image: url(/image/background.png);
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.head-background::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .2);
+  position: absolute;
+}
+
+.head-title {
+  position: relative;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 56px;
+  font-weight: bold;
+}

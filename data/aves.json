@@ -1,18 +1,56 @@
 {
     "class": "aves",
-    "orders": [
+    "name": "Aves",
+    "name-jp": "鳥綱",
+    "name-cn": "鸟纲",
+    "children": [
         {
-            "name": "passeriformes",
-            "label": "雀形目",
-            "icon": "/icon/スズメ.JPG",
-            "species": [
+            "name": "Palaeognathae",
+            "name-jp": "古顎類",
+            "name-cn": "古颚类",
+            "icon-children": [
                 {
-                    "id": "sparrow",
-                    "name": "スズメ",
-                    "latin": "Passer montanus",
-                    "images": [
-                        "/icon/スズメ.JPG"
-                    ]
+                    "name": "Struthioniformes",
+                    "name-jp": "ダチョウ目",
+                    "name-cn": "鸵鸟目",
+                    "icon": "/icon/ダチョウ.JPG"
+                },
+                {
+                    "name": "Rheiformes",
+                    "name-jp": "レア目",
+                    "name-cn": "美洲鸵目",
+                    "icon": "/icon/レア.JPG"
+                },
+                {
+                    "name": "Tinamiformes",
+                    "name-jp": "シギダチョウ目",
+                    "name-cn": "䳍形目",
+                    "icon": "/icon/カンムリシギダチョウ.JPG"
+                },
+                {
+                    "name": "Casuariiformes",
+                    "name-jp": "ヒクイドリ目",
+                    "name-cn": "鹤鸵目",
+                    "icon": "/icon/ヒクイドリ.JPG"
+                }
+            ]
+        },
+        {
+            "name": "Neognathae",
+            "name-jp": "新顎類",
+            "name-cn": "新颚类",
+            "icon-children": [
+                {
+                    "name": "Anseriformes",
+                    "name-jp": "カモ目",
+                    "name-cn": "雁形目",
+                    "icon": "/icon/マガモ.JPG"
+                },
+                {
+                    "name": "Galliformes",
+                    "name-jp": "キジ目",
+                    "name-cn": "鸡形目",
+                    "icon": "/icon/コジュケイ.JPG"
                 }
             ]
         }
