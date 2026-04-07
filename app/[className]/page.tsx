@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { getClassData } from "@/lib/data";
 
 export default async function ClassPage({
@@ -15,8 +16,12 @@ export default async function ClassPage({
             {data.orders.map((order: any) => (
                 <div key={order.name}>
                     <Link href={`/${data.class}/${order.name}`}>
-                        {order.label}
-                        <img src={order.icon} width={200} />
+                        <Image
+                            src={encodeURI(order.icon)}
+                            width={200}
+                            height={200}
+                            alt={order.label}
+                        />
                     </Link>
                 </div>
             ))}
