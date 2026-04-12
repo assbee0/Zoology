@@ -9,8 +9,8 @@ export default async function ClassPage({
     const { className } = await params;
     const data = getClassData(className);
     return (
-        <div className="body-aves">
-            <div className="head-background">
+        <div className={`body-${className}`}>
+            <div className={`head-background-base head-background-${className}`}>
                 <h1 className="head-title">{data["name-jp"] + " " + data.name}</h1>
             </div>
             <TreeNode node={data} />
