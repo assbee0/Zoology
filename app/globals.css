@@ -145,6 +145,13 @@
   max-width: 1200px;
 }
 
+/* 手机 */
+@media (max-width: 639px) {
+  .icon-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 /* 卡片 */
 .card {
   position: relative;
