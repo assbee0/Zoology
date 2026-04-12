@@ -282,6 +282,7 @@
   background-image: url(/image/sketch.png);
   background-size: calc(max(50vw, 800px));
   background-repeat: repeat;
+  font-family: "Noto Sans SC", "Noto Sans JP", sans-serif;
 }
 
 .head-background {
