@@ -1,6 +1,6 @@
 .homepage-background {
   min-height: 100vh;
-  padding: 56px 28px;
+  padding: 28px 28px;
   background:
     radial-gradient(circle at top, #1a1f2a 0%, #0b0f14 60%, #070a0f 100%);
   color: #fff;
@@ -133,7 +133,7 @@
 .page-container {
   display: flex;
   justify-content: center;
-  padding: 24px;
+  padding: 12px;
 }
 
 /* ⭐ 4列 */
