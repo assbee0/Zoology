@@ -127,28 +127,31 @@
 
 /* 容器 */
 .node-block {
-  margin-left: 20px;
+  margin-left: 0;
 }
 
 .page-container {
   display: flex;
   justify-content: center;
-  padding: 12px;
 }
 
-/* ⭐ 4列 */
 .icon-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 8px;
-  width: 100%;
+  grid-template-columns: repeat(auto-fit, 256px);
   max-width: 1200px;
+  gap: 8px;
 }
 
 /* 手机 */
 @media (max-width: 639px) {
   .icon-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .icon-grid>*:last-child:nth-child(odd) {
+    grid-column: span 2;
+    justify-self: center;
+    max-width: 70%;
   }
 }
 
@@ -229,6 +232,12 @@
 
   color: black;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 639px) {
+  .card-text {
+    font-size: 10px;
+  }
 }
 
 .level-1 {
