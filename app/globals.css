@@ -133,11 +133,12 @@
 .page-container {
   display: flex;
   justify-content: center;
+  padding: 12px;
 }
 
 .icon-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 256px);
+  grid-template-columns: repeat(auto-fit, minmax(160px, 256px));
   max-width: 1200px;
   gap: 8px;
 }
