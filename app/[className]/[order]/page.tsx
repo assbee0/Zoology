@@ -1,33 +1,35 @@
-import Link from "next/link";
-import { getClassData } from "@/lib/data";
+import { getOrderData } from "@/lib/data";
+import { TreeNode } from "@/components/tree-node";
+import { BackButton } from "@/components/back-button";
 
 export default async function OrderPage({
     params,
 }: {
-    params: Promise<{ className: string; order: string }>
+    params: Promise<{ className: string; order: string }>;
 }) {
-    const { className: className, order } = await params;
-    const data = getClassData(className);
-    const orderData = data.orders.find(
-        (o: any) => o.name === order
-    );
-
-    if (!orderData) {
-        return <div>Order not found</div>
-    }
-
+    const { className, order } = await params;
+    const data = getOrderData(order);
     return (
-        <div>
-            <h1>{orderData.label}</h1>
-
-            {orderData.species.map((sp: any) => (
-                <div key={sp.id}>
-                    <Link href={`/species/${sp.id}`}>
-                        <h3>{sp.name}</h3>
-                        <img src={sp.images[0]} width={200} />
-                    </Link>
-                </div>
-            ))}
+        <div className={`body-${className}`}>
+            <div className="nav-bar">
+                <BackButton>
+                    <svg width="20" height="20" viewBox="0 0 24 24">
+                        <path
+                            d="M15 18l-6-6 6-6"
+                            stroke="black"
+                            strokeWidth="2"
+                            fill="none"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                        />
+                    </svg>
+                </BackButton>
+                <div className="nav-title">{data["name-jp"]}</div>
+            </div>
+            <div className={`head-background-base head-background-${className}`}>
+                <h1 className="head-title">{data["name-jp"] + " " + data.name}</h1>
+            </div>
+            <TreeNode node={data} className={className} />
         </div>
     );
 }

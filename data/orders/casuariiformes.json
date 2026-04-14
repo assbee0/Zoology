@@ -1,0 +1,48 @@
+{
+  "class": "aves",
+  "order": "casuariiformes",
+  "name": "Casuariiformes",
+  "name-jp": "ヒクイドリ目",
+  "name-cn": "鹤鸵目",
+  "type": "order",
+  "children": [
+    {
+      "name": "Casuariidae",
+      "name-jp": "ヒクイドリ科",
+      "name-cn": "鹤鸵科",
+      "type": "family",
+      "children": [
+        {
+          "name": "Casuarius",
+          "name-jp": "ヒクイドリ属",
+          "name-cn": "鹤鸵属",
+          "type": "genus",
+          "icon-children": [
+            {
+              "name": "Casuarius Casuarius",
+              "name-jp": "ヒクイドリ",
+              "name-cn": "双垂鹤鸵",
+              "type": "species",
+              "icon": "/icon/ヒクイドリ.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Dromaius",
+          "name-jp": "エミュー属",
+          "name-cn": "鸸鹋属",
+          "type": "genus",
+          "icon-children": [
+            {
+              "name": "Dromaius Novaehollandiae",
+              "name-jp": "エミュー",
+              "name-cn": "鸸鹋",
+              "type": "species",
+              "icon": "/icon/エミュー.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

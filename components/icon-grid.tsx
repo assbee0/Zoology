@@ -1,16 +1,32 @@
 import Image from "next/image";
 import Link from "next/link";
 
+function renderName(node: any) {
+    return (
+        <>
+            {node["name-jp"]}{" "}
+            <br />
+            {(node.type === "genus" || node.type === "species") ? (
+                <i>{node.name}</i>
+            ) : (
+                node.name
+            )}
+        </>
+    );
+}
+
 export function IconGrid({
     items,
+    className
 }: {
     items: any[];
+    className: string;
 }) {
     return (
         <div className="page-container">
             <div className="icon-grid">
                 {items.map((item) => (
-                    <Link href={`/${item.name}`} key={item.name}>
+                    <Link href={`/${className}/${item.name}`} key={item.name}>
                         <div className="card">
                             <Image
                                 src={item.icon}
@@ -21,7 +37,7 @@ export function IconGrid({
                                 className="card-img"
                             />
                             <div className="card-text">
-                                {item["name-jp"] || item.name}
+                                {renderName(item)}
                             </div>
                         </div>
                     </Link>

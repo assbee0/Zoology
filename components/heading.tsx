@@ -2,16 +2,16 @@ import { getHeadingTag } from "@/lib/data";
 
 export function Heading({
     depth,
-    text,
+    children,
 }: {
     depth: number;
-    text: string;
+    children: React.ReactNode;
 }) {
     const Tag = getHeadingTag(depth);
 
     return (
         <Tag className={`heading level-${depth}`}>
-            {text}
+            {children}
         </Tag>
     );
 }

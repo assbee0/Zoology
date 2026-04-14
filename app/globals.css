@@ -137,10 +137,15 @@
 }
 
 .icon-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 256px));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   max-width: 1200px;
   gap: 8px;
+}
+
+.icon-grid>* {
+  width: 256px;
 }
 
 /* 卡片 */
@@ -363,8 +368,13 @@
 /* 手机 */
 @media (max-width: 640px) {
   .icon-grid {
+    display: grid;
     grid-template-columns: repeat(2, minmax(160px, 1fr));
     justify-items: center;
+  }
+
+  .icon-grid>* {
+    width: auto
   }
 
   .icon-grid>*:last-child:nth-child(odd) {

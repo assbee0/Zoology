@@ -29,7 +29,7 @@ export default async function ClassPage({
             <div className={`head-background-base head-background-${className}`}>
                 <h1 className="head-title">{data["name-jp"] + " " + data.name}</h1>
             </div>
-            <TreeNode node={data} />
+            <TreeNode node={data} className={className} />
         </div>
     );
 }
