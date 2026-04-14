@@ -26,7 +26,7 @@ export function IconGrid({
         <div className="page-container">
             <div className="icon-grid">
                 {items.map((item) => (
-                    <Link href={`/${className}/${item.name}`} key={item.name}>
+                    <Link href={`/${className}/${item.name.toLowerCase()}`} key={item.name}>
                         <div className="card">
                             <Image
                                 src={item.icon}
