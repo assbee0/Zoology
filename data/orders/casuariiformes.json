@@ -19,7 +19,7 @@
           "type": "genus",
           "icon-children": [
             {
-              "name": "Casuarius Casuarius",
+              "name": "Casuarius casuarius",
               "name-jp": "ヒクイドリ",
               "name-cn": "双垂鹤鸵",
               "type": "species",
@@ -34,7 +34,7 @@
           "type": "genus",
           "icon-children": [
             {
-              "name": "Dromaius Novaehollandiae",
+              "name": "Dromaius novaehollandiae",
               "name-jp": "エミュー",
               "name-cn": "鸸鹋",
               "type": "species",
