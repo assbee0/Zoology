@@ -1,15 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
+import { formatScientificName } from "@/lib/data";
 
 function renderName(node: any) {
+    const formattedName = formatScientificName(node.name);
+
     return (
         <>
             {node["name-jp"]}{" "}
             <br />
             {(node.type === "genus" || node.type === "species") ? (
-                <i>{node.name}</i>
+                <i>{formattedName}</i>
             ) : (
-                node.name
+                formattedName
             )}
         </>
     );

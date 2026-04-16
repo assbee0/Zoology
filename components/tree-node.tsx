@@ -1,14 +1,17 @@
 import { Heading } from "./heading";
 import { IconGrid } from "./icon-grid";
+import { formatScientificName } from "@/lib/data";
 
 function renderName(node: any) {
+    const formattedName = formatScientificName(node.name);
+
     return (
         <>
             {node["name-jp"]}{" "}
             {(node.type === "genus" || node.type === "species") ? (
-                <i>{node.name}</i>
+                <i>{formattedName}</i>
             ) : (
-                node.name
+                formattedName
             )}
         </>
     );

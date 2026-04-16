@@ -23,3 +23,12 @@ export function getHeadingTag(depth: number): keyof JSX.IntrinsicElements {
     const clamped = Math.min(Math.max(depth, 0), 5);
     return (`h${clamped + 1}`) as keyof JSX.IntrinsicElements;
 }
+
+export function formatScientificName(name: string) {
+    if (!name) return name;
+
+    const parts = name.split(" ");
+    parts[0] = parts[0].charAt(0).toUpperCase() + parts[0].slice(1);
+
+    return parts.join(" ");
+}

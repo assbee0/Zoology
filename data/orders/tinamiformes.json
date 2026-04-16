@@ -1,27 +1,27 @@
 {
   "class": "aves",
   "order": "tinamiformes",
-  "name": "Tinamiformes",
+  "name": "tinamiformes",
   "name-jp": "シギダチョウ目",
-  "name-cn": "䳍形目",
+  "name-cn": "?形目",
   "type": "order",
   "children": [
     {
-      "name": "Tinamidae",
+      "name": "tinamidae",
       "name-jp": "シギダチョウ科",
-      "name-cn": "䳍科",
+      "name-cn": "?科",
       "type": "family",
       "children": [
         {
-          "name": "Eudromia",
+          "name": "eudromia",
           "name-jp": "カンムリシギダチョウ属",
-          "name-cn": "凤头䳍属",
+          "name-cn": "凤头?属",
           "type": "genus",
           "icon-children": [
             {
-              "name": "Eudromia elegans",
+              "name": "eudromia elegans",
               "name-jp": "カンムリシギダチョウ",
-              "name-cn": "凤头䳍",
+              "name-cn": "凤头?",
               "type": "species",
               "icon": "/icon/カンムリシギダチョウ.jpg"
             }

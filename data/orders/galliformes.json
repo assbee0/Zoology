@@ -1,25 +1,25 @@
 {
   "class": "aves",
   "order": "galliformes",
-  "name": "Galliformes",
+  "name": "galliformes",
   "name-jp": "キジ目",
   "name-cn": "鸡形目",
   "type": "order",
   "children": [
     {
-      "name": "Numididae",
+      "name": "numididae",
       "name-jp": "ホロホロチョウ科",
       "name-cn": "珠鸡科",
       "type": "family",
       "children": [
         {
-          "name": "Acryllium",
+          "name": "acryllium",
           "name-jp": "フサホロホロチョウ属",
           "name-cn": "鹫珠鸡属",
           "type": "genus",
           "icon-children": [
             {
-              "name": "Acryllium vulturinum",
+              "name": "acryllium vulturinum",
               "name-jp": "フサホロホロチョウ",
               "name-cn": "鹫珠鸡",
               "type": "species",
@@ -30,25 +30,25 @@
       ]
     },
     {
-      "name": "Phasianidae",
+      "name": "phasianidae",
       "name-jp": "キジ科",
       "name-cn": "雉科",
       "type": "family",
       "children": [
         {
-          "name": "Rollulinae",
+          "name": "rollulinae",
           "name-jp": "カンムリシャコ亜科",
           "name-cn": "冕鹧鸪亚科",
           "type": "subfamily",
           "children": [
             {
-              "name": "Rollulus",
+              "name": "rollulus",
               "name-jp": "カンムリシャコ属",
               "name-cn": "冕鹧鸪属",
               "type": "genus",
               "icon-children": [
                 {
-                  "name": "Rollulus rouloul",
+                  "name": "rollulus rouloul",
                   "name-jp": "カンムリシャコ",
                   "name-cn": "冕鹧鸪",
                   "type": "species",
@@ -59,19 +59,19 @@
           ]
         },
         {
-          "name": "Phasianinae",
+          "name": "phasianinae",
           "name-jp": "キジ亜科",
           "name-cn": "雉亚科",
           "type": "subfamily",
           "children": [
             {
-              "name": "Tragopan",
+              "name": "tragopan",
               "name-jp": "ジュケイ属",
               "name-cn": "角雉属",
               "type": "genus",
               "icon-children": [
                 {
-                  "name": "Tragopan temminckii",
+                  "name": "tragopan temminckii",
                   "name-jp": "ベニジュケイ",
                   "name-cn": "红腹角雉",
                   "type": "species",
@@ -80,13 +80,13 @@
               ]
             },
             {
-              "name": "Lagopus",
+              "name": "lagopus",
               "name-jp": "ライチョウ属",
               "name-cn": "雷鸟属",
               "type": "genus",
               "icon-children": [
                 {
-                  "name": "Lagopus muta",
+                  "name": "lagopus muta",
                   "name-jp": "ライチョウ",
                   "name-cn": "岩雷鸟",
                   "type": "species",
@@ -95,20 +95,20 @@
               ]
             },
             {
-              "name": "Syrmaticus",
+              "name": "syrmaticus",
               "name-jp": "ヤマドリ属",
               "name-cn": "长尾雉属",
               "type": "genus",
               "icon-children": [
                 {
-                  "name": "Syrmaticus reevesii",
+                  "name": "syrmaticus reevesii",
                   "name-jp": "オナガキジ",
                   "name-cn": "白冠长尾雉",
                   "type": "species",
                   "icon": "/icon/オナガキジ.jpg"
                 },
                 {
-                  "name": "Syrmaticus soemmerringii",
+                  "name": "syrmaticus soemmerringii",
                   "name-jp": "ヤマドリ",
                   "name-cn": "铜长尾雉",
                   "type": "species",
@@ -117,13 +117,13 @@
               ]
             },
             {
-              "name": "Chrysolophus",
+              "name": "chrysolophus",
               "name-jp": "キンケイ属",
               "name-cn": "锦鸡属",
               "type": "genus",
               "icon-children": [
                 {
-                  "name": "Chrysolophus pictus",
+                  "name": "chrysolophus pictus",
                   "name-jp": "キンケイ",
                   "name-cn": "红腹锦鸡",
                   "type": "species",
@@ -132,20 +132,20 @@
               ]
             },
             {
-              "name": "Crossoptilon",
+              "name": "crossoptilon",
               "name-jp": "ミミキジ属",
               "name-cn": "马鸡属",
               "type": "genus",
               "icon-children": [
                 {
-                  "name": "Crossoptilon auritum",
+                  "name": "crossoptilon auritum",
                   "name-jp": "アオミミキジ",
                   "name-cn": "蓝马鸡",
                   "type": "species",
                   "icon": "/icon/アオミミキジ.jpg"
                 },
                 {
-                  "name": "Crossoptilon crossoptilon",
+                  "name": "crossoptilon crossoptilon",
                   "name-jp": "シロミミキジ",
                   "name-cn": "白马鸡",
                   "type": "species",
@@ -154,20 +154,20 @@
               ]
             },
             {
-              "name": "Lophura",
+              "name": "lophura",
               "name-jp": "コシアカキジ属",
               "name-cn": "鹇属",
               "type": "genus",
               "icon-children": [
                 {
-                  "name": "Lophura edwardsi",
+                  "name": "lophura edwardsi",
                   "name-jp": "コサンケイ",
                   "name-cn": "爱氏鹇",
                   "type": "species",
                   "icon": "/icon/コサンケイ.jpg"
                 },
                 {
-                  "name": "Lophura nycthemera",
+                  "name": "lophura nycthemera",
                   "name-jp": "ハッカン",
                   "name-cn": "白鹇",
                   "type": "species",
@@ -176,13 +176,13 @@
               ]
             },
             {
-              "name": "Bambusicola",
+              "name": "bambusicola",
               "name-jp": "コジュケイ属",
               "name-cn": "竹鸡属",
               "type": "genus",
               "icon-children": [
                 {
-                  "name": "Bambusicola thoracicus",
+                  "name": "bambusicola thoracicus",
                   "name-jp": "コジュケイ",
                   "name-cn": "灰胸竹鸡",
                   "type": "species",
@@ -191,13 +191,13 @@
               ]
             },
             {
-              "name": "Alectoris",
+              "name": "alectoris",
               "name-jp": "イワシャコ属",
               "name-cn": "石鸡属",
               "type": "genus",
               "icon-children": [
                 {
-                  "name": "Alectoris chukar",
+                  "name": "alectoris chukar",
                   "name-jp": "イワシャコ",
                   "name-cn": "石鸡",
                   "type": "species",
