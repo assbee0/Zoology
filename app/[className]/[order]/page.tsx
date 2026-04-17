@@ -14,8 +14,11 @@ export async function generateStaticParams() {
         .map(file => {
             const order = file.replace(".json", "")
 
+            const filePath = path.join(ordersDir, file)
+            const json = JSON.parse(fs.readFileSync(filePath, "utf-8"))
+
             return {
-                className: "aves",
+                className: json.class,
                 order,
             }
         })

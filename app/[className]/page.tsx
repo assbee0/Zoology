@@ -5,6 +5,7 @@ import { BackButton } from "@/components/back-button";
 export async function generateStaticParams() {
     return [
         { className: "aves" },
+        { className: "mammalia" },
     ]
 }
 
