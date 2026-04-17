@@ -2,6 +2,12 @@ import { getClassData } from "@/lib/data";
 import { TreeNode } from "@/components/tree-node";
 import { BackButton } from "@/components/back-button";
 
+export async function generateStaticParams() {
+    return [
+        { className: "aves" },
+    ]
+}
+
 export default async function ClassPage({
     params,
 }: {
