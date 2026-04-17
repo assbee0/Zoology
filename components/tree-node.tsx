@@ -8,7 +8,7 @@ function renderName(node: any) {
     return (
         <>
             {node["name-jp"]}{" "}
-            {(node.type === "genus" || node.type === "species") ? (
+            {(node.type === "genus" || node.type === "species" || node.type == "subgenus") ? (
                 <i>{formattedName}</i>
             ) : (
                 formattedName
