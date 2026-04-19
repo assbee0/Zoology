@@ -1,0 +1,87 @@
+{
+  "class": "mammalia",
+  "order": "primates",
+  "name": "primates",
+  "name-jp": "霊長目",
+  "name-cn": "灵长目",
+  "type": "order",
+  "children": [
+    {
+      "name": "strepsirrhini",
+      "name-jp": "曲鼻亜目",
+      "name-cn": "原猴亚目",
+      "type": "suborder",
+      "children": [
+        {
+          "name": "lemuriformes",
+          "name-jp": "キツネザル型下目",
+          "name-cn": "狐猴型次目",
+          "type": "infraorder",
+          "children": [
+            {
+              "name": "lemuroidea",
+              "name-jp": "キツネザル上科",
+              "name-cn": "狐猴总科",
+              "type": "superfamily",
+              "children": [
+                {
+                  "name": "lemuridae",
+                  "name-jp": "キツネザル科",
+                  "name-cn": "狐猴科",
+                  "type": "family",
+                  "children": [
+                    {
+                      "name": "lemur",
+                      "name-jp": "ワオキツネザル属",
+                      "name-cn": "狐猴属",
+                      "type": "genus",
+                      "icon-children": [
+                        {
+                          "name": "lemur catta",
+                          "name-jp": "ワオキツネザル",
+                          "name-cn": "环尾狐猴",
+                          "type": "species",
+                          "icon": "/icon/ワオキツネザル.jpg"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "eulemur",
+                      "name-jp": "キツネザル属",
+                      "name-cn": "美狐猴属",
+                      "type": "genus",
+                      "icon-children": [
+                        {
+                          "name": "eulemur fulvus",
+                          "name-jp": "ブラウンキツネザル",
+                          "name-cn": "褐美狐猴",
+                          "type": "species",
+                          "icon": "/icon/ブラウンキツネザル.jpg"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "varecia",
+                      "name-jp": "エリマキキツネザル属",
+                      "name-cn": "领狐猴属",
+                      "type": "genus",
+                      "icon-children": [
+                        {
+                          "name": "varecia variegata",
+                          "name-jp": "クロシロエリマキキツネザル",
+                          "name-cn": "领狐猴",
+                          "type": "species",
+                          "icon": "/icon/クロシロエリマキキツネザル.jpg"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
