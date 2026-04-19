@@ -25,13 +25,22 @@
               "type": "genus",
               "children": [
                 {
-                  "name": "equus ferus",
-                  "name-jp": "ノウマ",
-                  "name-cn": "野马",
-                  "type": "species"
+                  "name": "equus (equus)",
+                  "name-jp": "ウマ亜属",
+                  "name-cn": "马亚属",
+                  "type": "subgenus",
+                  "icon-children": [
+                    {
+                      "name": "equus ferus",
+                      "name-jp": "ノウマ",
+                      "name-cn": "野马",
+                      "type": "species",
+                      "icon": "/icon/ノウマ.jpg"
+                    }
+                  ]
                 },
                 {
-                  "name": "equus hippotigris",
+                  "name": "equus (hippotigris)",
                   "name-jp": "シマウマ亜属",
                   "name-cn": "斑马亚属",
                   "type": "subgenus",
@@ -60,7 +69,7 @@
                   ]
                 },
                 {
-                  "name": "equus asinus",
+                  "name": "equus (asinus)",
                   "name-jp": "ロバ亜属",
                   "name-cn": "驴亚属",
                   "type": "subgenus",
