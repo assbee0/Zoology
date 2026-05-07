@@ -514,6 +514,21 @@
                               "icon": "/icon/ジョウビタキ.jpg"
                             }
                           ]
+                        },
+                        {
+                          "name": "saxicola",
+                          "name-jp": "ノビタキ属",
+                          "name-cn": "石䳭属",
+                          "type": "genus",
+                          "icon-children": [
+                            {
+                              "name": "saxicola stejnegeri",
+                              "name-jp": "ノビタキ",
+                              "name-cn": "东亚石䳭",
+                              "type": "species",
+                              "icon": "/icon/ノビタキ.jpg"
+                            }
+                          ]
                         }
                       ]
                     },
