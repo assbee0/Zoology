@@ -522,9 +522,9 @@
                           "type": "genus",
                           "icon-children": [
                             {
-                              "name": "saxicola stejnegeri",
+                              "name": "saxicola maurus",
                               "name-jp": "ノビタキ",
-                              "name-cn": "东亚石䳭",
+                              "name-cn": "黑喉石䳭",
                               "type": "species",
                               "icon": "/icon/ノビタキ.jpg"
                             }
@@ -776,7 +776,7 @@
                         {
                           "name": "passer montanus",
                           "name-jp": "スズメ",
-                          "name-cn": "树麻雀",
+                          "name-cn": "麻雀",
                           "type": "species",
                           "icon": "/icon/スズメ.jpg"
                         }
