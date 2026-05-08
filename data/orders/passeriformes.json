@@ -646,6 +646,13 @@
                               "name-cn": "八哥",
                               "type": "species",
                               "icon": "/icon/ハッカチョウ.jpg"
+                            },
+                            {
+                              "name": "acridotheres tristis",
+                              "name-jp": "インドハッカ",
+                              "name-cn": "家八哥",
+                              "type": "species",
+                              "icon": "/icon/インドハッカ.jpg"
                             }
                           ]
                         },
