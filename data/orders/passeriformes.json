@@ -219,6 +219,13 @@
                       "type": "genus",
                       "icon-children": [
                         {
+                          "name": "hirundo javanica",
+                          "name-jp": "リュウキュウツバメ",
+                          "name-cn": "洋燕",
+                          "type": "species",
+                          "icon": "/icon/リュウキュウツバメ.jpg"
+                        },
+                        {
                           "name": "hirundo rustica",
                           "name-jp": "ツバメ",
                           "name-cn": "家燕",
