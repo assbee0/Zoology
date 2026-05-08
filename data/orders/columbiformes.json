@@ -23,7 +23,8 @@
               "name-jp": "アオバト",
               "name-cn": "红翅绿鸠",
               "type": "species",
-              "icon": "/icon/アオバト.jpg"
+              "icon": "/icon/アオバト.jpg",
+              "hasWild": false
             }
           ]
         },
@@ -38,7 +39,8 @@
               "name-jp": "ソデグロバト",
               "name-cn": "斑皇鸠",
               "type": "species",
-              "icon": "/icon/ソデグロバト.jpg"
+              "icon": "/icon/ソデグロバト.jpg",
+              "hasWild": false
             }
           ]
         },
@@ -53,7 +55,8 @@
               "name-jp": "チョウショウバト",
               "name-cn": "斑姬地鸠",
               "type": "species",
-              "icon": "/icon/チョウショウバト.jpg"
+              "icon": "/icon/チョウショウバト.jpg",
+              "hasWild": true
             }
           ]
         },
@@ -68,7 +71,8 @@
               "name-jp": "カワラバト",
               "name-cn": "原鸽",
               "type": "species",
-              "icon": "/icon/カワラバト.jpg"
+              "icon": "/icon/カワラバト.jpg",
+              "hasWild": true
             }
           ]
         },
@@ -83,14 +87,16 @@
               "name-jp": "シラコバト",
               "name-cn": "灰斑鸠",
               "type": "species",
-              "icon": "/icon/シラコバト.jpg"
+              "icon": "/icon/シラコバト.jpg",
+              "hasWild": false
             },
             {
               "name": "streptopelia orientalis",
               "name-jp": "キジバト",
               "name-cn": "山斑鸠",
               "type": "species",
-              "icon": "/icon/キジバト.jpg"
+              "icon": "/icon/キジバト.jpg",
+              "hasWild": true
             }
           ]
         },
@@ -105,7 +111,8 @@
               "name-jp": "カノコバト",
               "name-cn": "珠颈斑鸠",
               "type": "species",
-              "icon": "/icon/カノコバト.jpg"
+              "icon": "/icon/カノコバト.jpg",
+              "hasWild": true
             }
           ]
         }
