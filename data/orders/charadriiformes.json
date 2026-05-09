@@ -89,6 +89,22 @@
                   "hasWild": true
                 }
               ]
+            },
+            {
+              "name": "anarhynchus",
+              "name-jp": "ハシマガリチドリ属",
+              "name-cn": "弯嘴鸻属",
+              "type": "genus",
+              "icon-children": [
+                {
+                  "name": "anarhynchus mongolus",
+                  "name-jp": "メダイチドリ",
+                  "name-cn": "蒙古沙鸻",
+                  "type": "species",
+                  "icon": "/icon/メダイチドリ.jpg",
+                  "hasWild": true
+                }
+              ]
             }
           ]
         },
