@@ -367,6 +367,22 @@
                       "hasWild": false
                     }
                   ]
+                },
+                {
+                  "name": "sundasciurus",
+                  "name-jp": "スンダリス属",
+                  "name-cn": "马尾松鼠属",
+                  "type": "genus",
+                  "icon-children": [
+                    {
+                      "name": "sundasciurus tenuis",
+                      "name-jp": "ホソスンダリス",
+                      "name-cn": "纤小马尾松鼠",
+                      "type": "species",
+                      "icon": "/icon/ホソスンダリス.jpg",
+                      "hasWild": true
+                    }
+                  ]
                 }
               ]
             },
