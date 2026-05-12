@@ -71,12 +71,14 @@ export default function SpeciesPageClient({
                 setLang={setLang}
             />
 
-            <div className={`head-background-base ` + `head-background-${data.class}`}>
+            <div className={`head-background-base head-background-${data.class}`}>
                 <h1 className="head-title">
-                    {getName(data, lang)}{" "}
-                    {formatScientificName(
-                        data.scientificName
-                    )}
+                    <div>
+                        {getName(data, lang)}
+                    </div>
+                    <div className="head-subtitle scientific-name">
+                        {formatScientificName(data.scientificName)}
+                    </div>
                 </h1>
             </div>
             <main className="species-page">
