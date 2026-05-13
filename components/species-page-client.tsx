@@ -6,7 +6,7 @@ import Image from "next/image";
 import { Navbar } from "@/components/nav-bar";
 import { Lang } from "@/types/lang";
 import { formatScientificName } from "@/lib/utils"
-import { getImageUrl } from "@/lib/image"
+import { getImageUrl, getObservationDate } from "@/lib/image"
 
 function getName(data: any, lang: Lang) {
     if (lang === "cn") return data["name-cn"];
@@ -128,13 +128,13 @@ export default function SpeciesPageClient({
 
                     <div className="photo-meta">
 
-                        {currentPhoto.date && (
+                        {getObservationDate(currentPhoto.id) && (
                             <div className="meta-item">
 
                                 <Calendar size={16} />
 
                                 <span>
-                                    {currentPhoto.date}
+                                    {getObservationDate(currentPhoto.id)}
                                 </span>
 
                             </div>
