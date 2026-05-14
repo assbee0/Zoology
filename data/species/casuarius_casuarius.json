@@ -8,11 +8,13 @@
         {
             "id": "casuarius_casuarius_202504291557",
             "location": "上海动物园",
+            "isWild": false,
             "description": ""
         },
         {
             "id": "casuarius_casuarius_202504291601",
             "location": "上海动物园",
+            "isWild": false,
             "description": ""
         }
     ]
