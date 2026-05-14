@@ -1,6 +1,7 @@
 {
     "id": "dromaius_novaehollandiae",
     "class": "aves",
+    "order": "casuariiformes",
     "name-jp": "エミュー",
     "name-cn": "鸸鹋",
     "photos": [

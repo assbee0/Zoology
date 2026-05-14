@@ -1,6 +1,7 @@
 {
     "id": "struthio_camelus",
     "class": "aves",
+    "order": "struthioniformes",
     "name-jp": "ダチョウ",
     "name-cn": "非洲鸵鸟",
     "photos": [

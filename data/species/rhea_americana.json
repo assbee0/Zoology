@@ -1,6 +1,7 @@
 {
     "id": "rhea_americana",
     "class": "aves",
+    "order": "rheiformes",
     "name-jp": "レア",
     "name-cn": "大美洲鸵",
     "photos": [

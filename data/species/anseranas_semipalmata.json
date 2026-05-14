@@ -1,6 +1,7 @@
 {
     "id": "anseranas_semipalmata",
     "class": "aves",
+    "order": "anseriformes",
     "name-jp": "カササギガン",
     "name-cn": "鹊雁",
     "photos": [

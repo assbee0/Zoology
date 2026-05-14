@@ -70,6 +70,7 @@ export default function SpeciesPageClient({
                 title={getName(data, lang)}
                 lang={lang}
                 setLang={setLang}
+                fallback={`/${data.class}/${data.order}`}
             />
 
             <div className={`head-background-base head-background-${data.class}`}>
