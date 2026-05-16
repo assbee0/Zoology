@@ -99,7 +99,7 @@ export default function SpeciesPageClient({
                         </button>
 
                         <a
-                            href={getImageUrl(currentPhoto.id, "full")}
+                            href={getImageUrl(currentPhoto.id, "medium")}
                             target="_blank"
                             className="main-photo-link"
                         >
