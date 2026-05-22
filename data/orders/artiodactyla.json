@@ -389,6 +389,14 @@
                       "type": "genus",
                       "icon-children": [
                         {
+                          "name": "bos grunniens",
+                          "name-jp": "ヤク",
+                          "name-cn": "家牦牛",
+                          "type": "species",
+                          "icon": "/icon/ヤク.jpg",
+                          "hasWild": false
+                        },
+                        {
                           "name": "bos taurus",
                           "name-jp": "ウシ",
                           "name-cn": "家牛",
