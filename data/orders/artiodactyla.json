@@ -367,6 +367,22 @@
                       ]
                     },
                     {
+                      "name": "bison",
+                      "name-jp": "バイソン属",
+                      "name-cn": "野牛属",
+                      "type": "genus",
+                      "icon-children": [
+                        {
+                          "name": "bison bonasus",
+                          "name-jp": "ヨーロッパバイソン",
+                          "name-cn": "欧洲野牛",
+                          "type": "species",
+                          "icon": "/icon/ヨーロッパバイソン.jpg",
+                          "hasWild": false
+                        }
+                      ]
+                    },
+                    {
                       "name": "bos",
                       "name-jp": "ウシ属",
                       "name-cn": "牛属",
