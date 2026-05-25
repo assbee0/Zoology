@@ -103,6 +103,14 @@
                   "type": "genus",
                   "icon-children": [
                     {
+                      "name": "sus barbatus",
+                      "name-jp": "ヒゲイノシシ",
+                      "name-cn": "婆罗洲须猪",
+                      "type": "species",
+                      "icon": "/icon/ヒゲイノシシ.jpg",
+                      "hasWild": false
+                    },
+                    {
                       "name": "sus scrofa",
                       "name-jp": "イノシシ",
                       "name-cn": "野猪",
