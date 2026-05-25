@@ -509,6 +509,22 @@
                       "type": "family",
                       "children": [
                         {
+                          "name": "copsychus",
+                          "name-jp": "シキチョウ属",
+                          "name-cn": "鹊鸲属",
+                          "type": "genus",
+                          "icon-children": [
+                            {
+                              "name": "copsychus saularis",
+                              "name-jp": "シキチョウ",
+                              "name-cn": "鹊鸲",
+                              "type": "species",
+                              "icon": "/icon/シキチョウ.jpg",
+                              "hasWild": true
+                            }
+                          ]
+                        },
+                        {
                           "name": "calliope",
                           "name-jp": "ノゴマ属",
                           "name-cn": "红喉歌鸲属",
