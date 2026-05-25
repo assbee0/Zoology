@@ -225,6 +225,30 @@
                   ]
                 },
                 {
+                  "name": "cisticolidae",
+                  "name-jp": "セッカ科",
+                  "name-cn": "扇尾莺科",
+                  "type": "family",
+                  "children": [
+                    {
+                      "name": "orthotomus",
+                      "name-jp": "サイホウチョウ属",
+                      "name-cn": "缝叶莺属",
+                      "type": "genus",
+                      "icon-children": [
+                        {
+                          "name": "orthotomus ruficeps",
+                          "name-jp": "アカガオサイホウチョウ",
+                          "name-cn": "灰缝叶莺",
+                          "type": "species",
+                          "icon": "/icon/アカガオサイホウチョウ.jpg",
+                          "hasWild": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
                   "name": "hirundinidae",
                   "name-jp": "ツバメ科",
                   "name-cn": "燕科",
