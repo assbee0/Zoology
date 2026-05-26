@@ -585,6 +585,14 @@
                               "type": "species",
                               "icon": "/icon/シロテテナガザル.jpg",
                               "hasWild": false
+                            },
+                            {
+                              "name": "hylobates pileatus",
+                              "name-jp": "ボウシテナガザル",
+                              "name-cn": "戴帽长臂猿",
+                              "type": "species",
+                              "icon": "/icon/ボウシテナガザル.jpg",
+                              "hasWild": false
                             }
                           ]
                         },
