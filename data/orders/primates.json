@@ -417,6 +417,22 @@
                                   "hasWild": false
                                 }
                               ]
+                            },
+                            {
+                              "name": "papio",
+                              "name-jp": "ヒヒ属",
+                              "name-cn": "狒狒属",
+                              "type": "genus",
+                              "icon-children": [
+                                {
+                                  "name": "papio hamadryas",
+                                  "name-jp": "マントヒヒ",
+                                  "name-cn": "阿拉伯狒狒",
+                                  "type": "species",
+                                  "icon": "/icon/マントヒヒ.jpg",
+                                  "hasWild": false
+                                }
+                              ]
                             }
                           ]
                         }
