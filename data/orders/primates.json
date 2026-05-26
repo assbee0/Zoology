@@ -253,6 +253,14 @@
                       "type": "genus",
                       "icon-children": [
                         {
+                          "name": "saguinus imperator",
+                          "name-jp": "エンペラータマリン",
+                          "name-cn": "皇柽柳猴",
+                          "type": "species",
+                          "icon": "/icon/エンペラータマリン.jpg",
+                          "hasWild": false
+                        },
+                        {
                           "name": "saguinus oedipus",
                           "name-jp": "ワタボウシタマリン",
                           "name-cn": "绒顶柽柳猴",
