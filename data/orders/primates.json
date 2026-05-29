@@ -137,6 +137,38 @@
               "type": "parvorder",
               "children": [
                 {
+                  "name": "pitheciidae",
+                  "name-jp": "サキ科",
+                  "name-cn": "僧面猴科",
+                  "type": "family",
+                  "children": [
+                    {
+                      "name": "pitheciinae",
+                      "name-jp": "サキ亜科",
+                      "name-cn": "僧面猴亚科",
+                      "type": "subfamily",
+                      "children": [
+                        {
+                          "name": "pithecia",
+                          "name-jp": "サキ属",
+                          "name-cn": "僧面猴属",
+                          "type": "genus",
+                          "icon-children": [
+                            {
+                              "name": "pithecia pithecia",
+                              "name-jp": "シロガオサキ",
+                              "name-cn": "白面僧面猴",
+                              "type": "species",
+                              "icon": "/icon/シロガオサキ.jpg",
+                              "hasWild": false
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
                   "name": "atelidae",
                   "name-jp": "クモザル科",
                   "name-cn": "蜘蛛猴科",
