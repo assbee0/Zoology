@@ -61,6 +61,12 @@
           ]
         },
         {
+          "name": "ducula aenea",
+          "name-jp": "ミカドバト",
+          "name-cn": "绿皇鸠",
+          "type": "species"
+        },
+        {
           "name": "geopelia",
           "name-jp": "チョウショウバト属",
           "name-cn": "姬地鸠属",
