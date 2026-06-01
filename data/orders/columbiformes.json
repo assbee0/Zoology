@@ -77,6 +77,22 @@
           ]
         },
         {
+          "name": "patagioenas",
+          "name-jp": "パタギオエナス属",
+          "name-cn": "新大陆鸽属",
+          "type": "genus",
+          "icon-children": [
+            {
+              "name": "patagioenas oenops",
+              "name-jp": "ペルーバト",
+              "name-cn": "秘鲁鸽",
+              "type": "species",
+              "icon": "/icon/ペルーバト.jpg",
+              "hasWild": false
+            }
+          ]
+        },
+        {
           "name": "columba",
           "name-jp": "カワラバト属",
           "name-cn": "鸽属",
