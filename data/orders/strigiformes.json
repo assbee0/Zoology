@@ -101,6 +101,22 @@
           ]
         },
         {
+          "name": "ketupa",
+          "name-jp": "シマフクロウ属",
+          "name-cn": "渔鸮属",
+          "type": "genus",
+          "icon-children": [
+            {
+              "name": "ketupa ketupu",
+              "name-jp": "マレーウオミミズク",
+              "name-cn": "马来渔鸮",
+              "type": "species",
+              "icon": "/icon/マレーウオミミズク.jpg",
+              "hasWild": false
+            }
+          ]
+        },
+        {
           "name": "strix",
           "name-jp": "フクロウ属",
           "name-cn": "林鸮属",
