@@ -129,6 +129,22 @@
                   "hasWild": false
                 }
               ]
+            },
+            {
+              "name": "rhabdotorrhinus",
+              "name-jp": "ラブドトリヌス属",
+              "name-cn": "斑盔犀鸟属",
+              "type": "genus",
+              "icon-children": [
+                {
+                  "name": "rhabdotorrhinus exarhatus",
+                  "name-jp": "カオジロサイチョウ",
+                  "name-cn": "白颊犀鸟",
+                  "type": "species",
+                  "icon": "/icon/カオジロサイチョウ.jpg",
+                  "hasWild": false
+                }
+              ]
             }
           ]
         }
