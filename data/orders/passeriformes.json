@@ -677,6 +677,22 @@
                       "type": "family",
                       "children": [
                         {
+                          "name": "basilornis",
+                          "name-jp": "オオサマムクドリ属",
+                          "name-cn": "王椋鸟属",
+                          "type": "genus",
+                          "icon-children": [
+                            {
+                              "name": "basilornis celebensis",
+                              "name-jp": "セレベスオオサマムクドリ",
+                              "name-cn": "苏拉王椋鸟",
+                              "type": "species",
+                              "icon": "/icon/セレベスオオサマムクドリ.jpg",
+                              "hasWild": false
+                            }
+                          ]
+                        },
+                        {
                           "name": "gracula",
                           "name-jp": "キュウカンチョウ属",
                           "name-cn": "鹩哥属",
