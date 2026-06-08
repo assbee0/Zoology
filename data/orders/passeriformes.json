@@ -337,6 +337,14 @@
                               "type": "species",
                               "icon": "/icon/シロガシラ.jpg",
                               "hasWild": true
+                            },
+                            {
+                              "name": "pycnonotus zeylanicus",
+                              "name-jp": "キガシラヒヨドリ",
+                              "name-cn": "黄冠鹎",
+                              "type": "species",
+                              "icon": "/icon/キガシラヒヨドリ.jpg",
+                              "hasWild": false
                             }
                           ]
                         },
