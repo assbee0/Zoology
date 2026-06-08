@@ -177,13 +177,13 @@
     {
       "name": "psittaculidae",
       "name-jp": "インコ科",
-      "name-cn": "鹦鹉科",
+      "name-cn": "长尾鹦鹉科",
       "type": "family",
       "children": [
         {
           "name": "psittaculinae",
           "name-jp": "プシッタクリニ亜科",
-          "name-cn": "鹦鹉亚科",
+          "name-cn": "长尾鹦鹉亚科",
           "type": "subfamily",
           "children": [
             {
@@ -259,9 +259,17 @@
                 {
                   "name": "trichoglossus",
                   "name-jp": "セイガイインコ属",
-                  "name-cn": "吸蜜鹦鹉属",
+                  "name-cn": "彩虹鹦鹉属",
                   "type": "genus",
                   "icon-children": [
+                    {
+                      "name": "trichoglossus chlorolepidotus",
+                      "name-jp": "コセイガイインコ",
+                      "name-cn": "鳞胸鹦鹉",
+                      "type": "species",
+                      "icon": "/icon/コセイガイインコ.jpg",
+                      "hasWild": false
+                    },
                     {
                       "name": "trichoglossus haematodus",
                       "name-jp": "ニューギニアゴシキセイガイインコ",
