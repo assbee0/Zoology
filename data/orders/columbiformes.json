@@ -41,6 +41,14 @@
               "type": "species",
               "icon": "/icon/カンムリバト.jpg",
               "hasWild": false
+            },
+            {
+              "name": "goura sclaterii",
+              "name-jp": "ムネアカカンムリバト",
+              "name-cn": "斯氏凤冠鸠",
+              "type": "species",
+              "icon": "/icon/ムネアカカンムリバト.jpg",
+              "hasWild": false
             }
           ]
         },
