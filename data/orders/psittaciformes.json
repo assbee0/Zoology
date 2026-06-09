@@ -225,6 +225,22 @@
                   "hasWild": false
                 }
               ]
+            },
+            {
+              "name": "loriculus",
+              "name-jp": "サトウチョウ属",
+              "name-cn": "短尾鹦鹉属",
+              "type": "genus",
+              "icon-children": [
+                {
+                  "name": "loriculus galgulus",
+                  "name-jp": "サトウチョウ",
+                  "name-cn": "蓝冠短尾鹦鹉",
+                  "type": "species",
+                  "icon": "/icon/サトウチョウ.jpg",
+                  "hasWild": false
+                }
+              ]
             }
           ]
         },
