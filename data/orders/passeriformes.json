@@ -243,6 +243,14 @@
                           "type": "species",
                           "icon": "/icon/アカガオサイホウチョウ.jpg",
                           "hasWild": true
+                        },
+                        {
+                          "name": "orthotomus sutorius",
+                          "name-jp": "オナガサイホウチョウ",
+                          "name-cn": "长尾缝叶莺",
+                          "type": "species",
+                          "icon": "/icon/オナガサイホウチョウ.jpg",
+                          "hasWild": true
                         }
                       ]
                     }
