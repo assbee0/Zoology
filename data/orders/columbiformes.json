@@ -29,6 +29,22 @@
           ]
         },
         {
+          "name": "caloenas",
+          "name-jp": "ミノバト属",
+          "name-cn": "蓑鸠属",
+          "type": "genus",
+          "icon-children": [
+            {
+              "name": "caloenas nicobarica",
+              "name-jp": "ミノバト",
+              "name-cn": "绿蓑鸠",
+              "type": "species",
+              "icon": "/icon/ミノバト.jpg",
+              "hasWild": false
+            }
+          ]
+        },
+        {
           "name": "goura",
           "name-jp": "カンムリバト属",
           "name-cn": "凤冠鸠属",
