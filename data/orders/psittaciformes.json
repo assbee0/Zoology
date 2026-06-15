@@ -305,6 +305,22 @@
               "type": "tribe",
               "children": [
                 {
+                  "name": "lorius",
+                  "name-jp": "オビロインコ属",
+                  "name-cn": "黑顶吸蜜鹦鹉属",
+                  "type": "genus",
+                  "icon-children": [
+                    {
+                      "name": "lorius chlorocercus",
+                      "name-jp": "ヨダレカケズグロインコ",
+                      "name-cn": "黄领吸蜜鹦鹉",
+                      "type": "species",
+                      "icon": "/icon/ヨダレカケズグロインコ.jpg",
+                      "hasWild": false
+                    }
+                  ]
+                },
+                {
                   "name": "trichoglossus",
                   "name-jp": "セイガイインコ属",
                   "name-cn": "彩虹鹦鹉属",
