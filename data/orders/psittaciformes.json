@@ -45,6 +45,22 @@
           ]
         },
         {
+          "name": "eolophus",
+          "name-jp": "モモイロインコ属",
+          "name-cn": "粉红凤头鹦鹉属",
+          "type": "genus",
+          "icon-children": [
+            {
+              "name": "eolophus roseicapilla",
+              "name-jp": "モモイロインコ",
+              "name-cn": "红尾黑凤头鹦鹉",
+              "type": "species",
+              "icon": "/icon/モモイロインコ.jpg",
+              "hasWild": false
+            }
+          ]
+        },
+        {
           "name": "cacatua",
           "name-jp": "オウム属",
           "name-cn": "凤头鹦鹉属",
