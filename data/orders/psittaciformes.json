@@ -335,6 +335,14 @@
                       "hasWild": false
                     },
                     {
+                      "name": "trichoglossus forsteni",
+                      "name-jp": "スンバセイガイインコ",
+                      "name-cn": "红胸鹦鹉",
+                      "type": "species",
+                      "icon": "/icon/スンバセイガイインコ.jpg",
+                      "hasWild": false
+                    },
+                    {
                       "name": "trichoglossus haematodus",
                       "name-jp": "ニューギニアゴシキセイガイインコ",
                       "name-cn": "椰果鹦鹉",
