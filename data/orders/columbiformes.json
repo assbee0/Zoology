@@ -75,6 +75,14 @@
           "type": "genus",
           "icon-children": [
             {
+              "name": "ducula aenea",
+              "name-jp": "ミカドバト",
+              "name-cn": "绿皇鸠",
+              "type": "species",
+              "icon": "/icon/ミカドバト.jpg",
+              "hasWild": false
+            },
+            {
               "name": "ducula bicolor",
               "name-jp": "ソデグロバト",
               "name-cn": "斑皇鸠",
