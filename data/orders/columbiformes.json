@@ -117,6 +117,22 @@
           ]
         },
         {
+          "name": "gallicolumba",
+          "name-jp": "ヒムネバト属",
+          "name-cn": "鸡鸠属",
+          "type": "genus",
+          "icon-children": [
+            {
+              "name": "gallicolumba tristigmata",
+              "name-jp": "セレベスウズラバト",
+              "name-cn": "黄胸鸡鸠",
+              "type": "species",
+              "icon": "/icon/セレベスウズラバト.jpg",
+              "hasWild": false
+            }
+          ]
+        },
+        {
           "name": "geopelia",
           "name-jp": "チョウショウバト属",
           "name-cn": "姬地鸠属",
