@@ -69,6 +69,22 @@
           ]
         },
         {
+          "name": "ramphiculus",
+          "name-jp": "ランフィクルス属",
+          "name-cn": "果鸠属",
+          "type": "genus",
+          "icon-children": [
+            {
+              "name": "ramphiculus jambu",
+              "name-jp": "ボタンバト",
+              "name-cn": "粉头果鸠",
+              "type": "species",
+              "icon": "/icon/ボタンバト.jpg",
+              "hasWild": false
+            }
+          ]
+        },
+        {
           "name": "ducula",
           "name-jp": "ミカドバト属",
           "name-cn": "皇鸠属",
