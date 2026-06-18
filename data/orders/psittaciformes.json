@@ -321,6 +321,22 @@
                   ]
                 },
                 {
+                  "name": "chalcopsitta",
+                  "name-jp": "テリハインコ属",
+                  "name-cn": "铜色鹦鹉属",
+                  "type": "genus",
+                  "icon-children": [
+                    {
+                      "name": "chalcopsitta fuscata",
+                      "name-jp": "コシジロインコ",
+                      "name-cn": "烟色鹦鹉",
+                      "type": "species",
+                      "icon": "/icon/コシジロインコ.jpg",
+                      "hasWild": false
+                    }
+                  ]
+                },
+                {
                   "name": "trichoglossus",
                   "name-jp": "セイガイインコ属",
                   "name-cn": "彩虹鹦鹉属",
