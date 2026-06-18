@@ -219,6 +219,22 @@
           "type": "subfamily",
           "children": [
             {
+              "name": "alisterus",
+              "name-jp": "キンショウジョウインコ属",
+              "name-cn": "王鹦鹉属",
+              "type": "genus",
+              "icon-children": [
+                {
+                  "name": "alisterus amboinensis",
+                  "name-jp": "オウインコ",
+                  "name-cn": "安汶王鹦鹉",
+                  "type": "species",
+                  "icon": "/icon/オウインコ.jpg",
+                  "hasWild": false
+                }
+              ]
+            },
+            {
               "name": "eclectus",
               "name-jp": "オオハナインコ属",
               "name-cn": "折衷鹦鹉属",
