@@ -651,6 +651,14 @@
                               "hasWild": false
                             },
                             {
+                              "name": "turdus celaenops",
+                              "name-jp": "アカコッコ",
+                              "name-cn": "伊豆鸫",
+                              "type": "species",
+                              "icon": "/icon/アカコッコ.jpg",
+                              "hasWild": true
+                            },
+                            {
                               "name": "turdus eunomus",
                               "name-jp": "ツグミ",
                               "name-cn": "斑鸫",
