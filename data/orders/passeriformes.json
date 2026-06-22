@@ -197,6 +197,14 @@
                       "type": "genus",
                       "icon-children": [
                         {
+                          "name": "sittiparus owstoni",
+                          "name-jp": "オーストンヤマガラ",
+                          "name-cn": "伊豆杂色山雀",
+                          "type": "species",
+                          "icon": "/icon/オーストンヤマガラ.jpg",
+                          "hasWild": true
+                        },
+                        {
                           "name": "sittiparus varius",
                           "name-jp": "ヤマガラ",
                           "name-cn": "杂色山雀",
