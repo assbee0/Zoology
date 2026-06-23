@@ -1,0 +1,16 @@
+{
+    "totalSpecies": 483,
+    "wildSpecies": 108,
+    "classes": [
+        {
+            "name": "AVES",
+            "totalSpecies": 296,
+            "wildSpecies": 102
+        },
+        {
+            "name": "MAMMALIA",
+            "totalSpecies": 187,
+            "wildSpecies": 6
+        }
+    ]
+}
