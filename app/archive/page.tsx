@@ -1,17 +1,65 @@
 "use client";
 
 import Link from "next/link";
-import archiveStats from "@/data/archive.json";
+import archive from "@/data/archive.json";
+
+type StatCardProps = {
+    title: string;
+    total: number;
+    wild: number;
+};
+
+function StatCard({
+    title,
+    total,
+    wild,
+}: StatCardProps) {
+    return (
+        <div className="archive-stat-card">
+
+            <div className="archive-stat-title">
+                {title}
+            </div>
+
+            <div className="archive-stat-wild-number">
+                {wild.toLocaleString()}
+            </div>
+
+            <div className="archive-stat-wild-label">
+                WILD
+            </div>
+
+            <div className="archive-stat-divider" />
+
+            <div className="archive-stat-total">
+                {total.toLocaleString()}
+            </div>
+
+            <div className="archive-stat-total-label">
+                TOTAL
+            </div>
+
+        </div>
+    );
+}
 
 export default function ArchivePage() {
+
+    const total = archive.total;
+
     return (
         <div className="archive-background">
 
-            <div className="archive-nav">
-                <Link href="/">← ZOOLOGY</Link>
+            <div className="archive-path">
+                <Link href="/">
+                    ZOOLOGY
+                </Link>
+
+                <span> / ARCHIVE</span>
             </div>
 
             <header className="archive-header">
+
                 <h1
                     className="archive-heading"
                     data-word="ARCHIVE"
@@ -24,73 +72,93 @@ export default function ArchivePage() {
                 <p className="archive-subtitle">
                     ZOOLOGICAL COLLECTION DATABASE
                 </p>
+
             </header>
 
-            <section className="archive-overview">
+            <section className="archive-section">
 
-                <div className="archive-stat-card">
-                    <div className="archive-stat-number">
-                        {archiveStats.totalSpecies.toLocaleString()}
-                    </div>
+                <h2
+                    className="archive-section-title"
+                    data-word="TOTAL"
+                >
+                    TOTAL
+                </h2>
 
-                    <div className="archive-stat-label">
-                        TOTAL SPECIES
-                    </div>
-                </div>
+                <div className="archive-grid">
 
-                <div className="archive-stat-card">
-                    <div className="archive-stat-number">
-                        {archiveStats.wildSpecies.toLocaleString()}
-                    </div>
+                    <StatCard
+                        title="ORDERS"
+                        total={total.orders}
+                        wild={total.wildOrders}
+                    />
 
-                    <div className="archive-stat-label">
-                        WILD SPECIES
-                    </div>
+                    <StatCard
+                        title="FAMILIES"
+                        total={total.families}
+                        wild={total.wildFamilies}
+                    />
+
+                    <StatCard
+                        title="GENERA"
+                        total={total.genera}
+                        wild={total.wildGenera}
+                    />
+
+                    <StatCard
+                        title="SPECIES"
+                        total={total.species}
+                        wild={total.wildSpecies}
+                    />
+
                 </div>
 
             </section>
 
-            <section className="archive-class-list">
+            {archive.classes.map(cls => (
 
-                {archiveStats.classes.map(cls => (
-                    <div
-                        key={cls.name}
-                        className="archive-class-card"
+                <section
+                    key={cls.name}
+                    className="archive-section"
+                >
+
+                    <h2
+                        className="archive-section-title"
+                        data-word={cls.name}
                     >
-                        <h2
-                            className="archive-class-title"
-                            data-word={cls.name}
-                        >
-                            {cls.name}
-                        </h2>
+                        {cls.name}
+                    </h2>
 
-                        <div className="archive-class-stats">
+                    <div className="archive-grid">
 
-                            <div>
-                                <div className="archive-class-number">
-                                    {cls.totalSpecies.toLocaleString()}
-                                </div>
+                        <StatCard
+                            title="ORDERS"
+                            total={cls.orders}
+                            wild={cls.wildOrders}
+                        />
 
-                                <div className="archive-class-label">
-                                    TOTAL SPECIES
-                                </div>
-                            </div>
+                        <StatCard
+                            title="FAMILIES"
+                            total={cls.families}
+                            wild={cls.wildFamilies}
+                        />
 
-                            <div>
-                                <div className="archive-class-number">
-                                    {cls.wildSpecies.toLocaleString()}
-                                </div>
+                        <StatCard
+                            title="GENERA"
+                            total={cls.genera}
+                            wild={cls.wildGenera}
+                        />
 
-                                <div className="archive-class-label">
-                                    WILD SPECIES
-                                </div>
-                            </div>
+                        <StatCard
+                            title="SPECIES"
+                            total={cls.species}
+                            wild={cls.wildSpecies}
+                        />
 
-                        </div>
                     </div>
-                ))}
 
-            </section>
+                </section>
+
+            ))}
 
         </div>
     );
