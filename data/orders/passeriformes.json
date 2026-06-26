@@ -395,6 +395,14 @@
                           "type": "genus",
                           "icon-children": [
                             {
+                              "name": "pycnonotus jocosus",
+                              "name-jp": "コウラウン",
+                              "name-cn": "红耳鹎",
+                              "type": "species",
+                              "icon": "/icon/コウラウン.jpg",
+                              "hasWild": false
+                            },
+                            {
                               "name": "pycnonotus sinensis",
                               "name-jp": "シロガシラ",
                               "name-cn": "白头鹎",
