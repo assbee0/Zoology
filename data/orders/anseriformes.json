@@ -75,6 +75,22 @@
           "type": "subfamily",
           "children": [
             {
+              "name": "marmaronetta",
+              "name-jp": "ウスユキガモ属",
+              "name-cn": "云石斑鸭属",
+              "type": "genus",
+              "icon-children": [
+                {
+                  "name": "marmaronetta angustirostris",
+                  "name-jp": "ウスユキガモ",
+                  "name-cn": "云石斑鸭",
+                  "type": "species",
+                  "icon": "/icon/ウスユキガモ.jpg",
+                  "hasWild": false
+                }
+              ]
+            },
+            {
               "name": "tadornini",
               "name-jp": "ツクシガモ族",
               "name-cn": "麻鸭族",
