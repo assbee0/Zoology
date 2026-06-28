@@ -75,6 +75,22 @@
           "type": "subfamily",
           "children": [
             {
+              "name": "asarcornis",
+              "name-jp": "ハジロモリガモ属",
+              "name-cn": "白翅栖鸭属",
+              "type": "genus",
+              "icon-children": [
+                {
+                  "name": "asarcornis scutulata",
+                  "name-jp": "ハジロモリガモ",
+                  "name-cn": "白翅栖鸭",
+                  "type": "species",
+                  "icon": "/icon/ハジロモリガモ.jpg",
+                  "hasWild": false
+                }
+              ]
+            },
+            {
               "name": "marmaronetta",
               "name-jp": "ウスユキガモ属",
               "name-cn": "云石斑鸭属",
