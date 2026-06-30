@@ -63,6 +63,14 @@
                   "type": "species",
                   "icon": "/icon/シラボシリュウキュウガモ.jpg",
                   "hasWild": false
+                },
+                {
+                  "name": "dendrocygna viduata",
+                  "name-jp": "シロガオリュウキュウガモ",
+                  "name-cn": "白脸树鸭",
+                  "type": "species",
+                  "icon": "/icon/シロガオリュウキュウガモ.jpg",
+                  "hasWild": false
                 }
               ]
             }
