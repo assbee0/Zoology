@@ -1,0 +1,27 @@
+{
+    "id": "prunella_rubida",
+    "class": "aves",
+    "order": "passeriformes",
+    "name-jp": "カヤクグリ",
+    "name-cn": "红岩鹨",
+    "photos": [
+        {
+            "id": "prunella_rubida_202607241429",
+            "location": "立山室堂平",
+            "isWild": true,
+            "description": ""
+        },
+        {
+            "id": "prunella_rubida_202607250925",
+            "location": "立山室堂平",
+            "isWild": true,
+            "description": ""
+        },
+        {
+            "id": "prunella_rubida_202607251428",
+            "location": "立山室堂平",
+            "isWild": true,
+            "description": ""
+        }
+    ]
+}

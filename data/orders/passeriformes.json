@@ -1049,6 +1049,30 @@
                   ]
                 },
                 {
+                  "name": "prunellidae",
+                  "name-jp": "イワヒバリ科",
+                  "name-cn": "岩鹨科",
+                  "type": "family",
+                  "children": [
+                    {
+                      "name": "prunella",
+                      "name-jp": "イワヒバリ属",
+                      "name-cn": "岩鹨属",
+                      "type": "genus",
+                      "icon-children": [
+                        {
+                          "name": "prunella rubida",
+                          "name-jp": "カヤクグリ",
+                          "name-cn": "红岩鹨",
+                          "type": "species",
+                          "icon": "/icon/カヤクグリ.jpg",
+                          "hasWild": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
                   "name": "passeridae",
                   "name-jp": "スズメ科",
                   "name-cn": "雀科",
