@@ -1,0 +1,21 @@
+{
+    "id": "phylloscopus_xanthodryas",
+    "class": "aves",
+    "order": "passeriformes",
+    "name-jp": "メボソムシクイ",
+    "name-cn": "日本柳莺",
+    "photos": [
+        {
+            "id": "phylloscopus_xanthodryas_202607241528",
+            "location": "立山室堂平",
+            "isWild": true,
+            "description": ""
+        },
+        {
+            "id": "phylloscopus_xanthodryas_202607241529",
+            "location": "立山室堂平",
+            "isWild": true,
+            "description": ""
+        }
+    ]
+}

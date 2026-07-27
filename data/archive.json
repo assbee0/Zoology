@@ -2,24 +2,24 @@
     "total": {
         "orders": 43,
         "wildOrders": 19,
-        "families": 134,
-        "wildFamilies": 45,
-        "genera": 350,
-        "wildGenera": 83,
-        "species": 500,
-        "wildSpecies": 110
+        "families": 135,
+        "wildFamilies": 46,
+        "genera": 351,
+        "wildGenera": 84,
+        "species": 501,
+        "wildSpecies": 111
     },
     "classes": [
         {
             "name": "AVES",
             "orders": 28,
             "wildOrders": 16,
-            "families": 76,
-            "wildFamilies": 41,
-            "genera": 213,
-            "wildGenera": 78,
-            "species": 312,
-            "wildSpecies": 104
+            "families": 77,
+            "wildFamilies": 42,
+            "genera": 214,
+            "wildGenera": 79,
+            "species": 313,
+            "wildSpecies": 105
         },
         {
             "name": "MAMMALIA",
