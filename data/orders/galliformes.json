@@ -150,7 +150,7 @@
                   "name-cn": "岩雷鸟",
                   "type": "species",
                   "icon": "/icon/ライチョウ.jpg",
-                  "hasWild": false
+                  "hasWild": true
                 }
               ]
             },
