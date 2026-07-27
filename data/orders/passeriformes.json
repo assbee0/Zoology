@@ -1215,6 +1215,22 @@
                       ]
                     },
                     {
+                      "name": "pyrrhula",
+                      "name-jp": "ウソ属",
+                      "name-cn": "灰雀属",
+                      "type": "genus",
+                      "icon-children": [
+                        {
+                          "name": "pyrrhula pyrrhula",
+                          "name-jp": "ウソ",
+                          "name-cn": "红腹灰雀",
+                          "type": "species",
+                          "icon": "/icon/ウソ.jpg",
+                          "hasWild": true
+                        }
+                      ]
+                    },
+                    {
                       "name": "chloris",
                       "name-jp": "カワラヒワ属",
                       "name-cn": "金翅雀属",

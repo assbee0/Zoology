@@ -1,0 +1,21 @@
+{
+    "id": "pyrrhula_pyrrhula",
+    "class": "aves",
+    "order": "passeriformes",
+    "name-jp": "ウソ",
+    "name-cn": "红腹灰雀",
+    "photos": [
+        {
+            "id": "pyrrhula_pyrrhula_202607241720",
+            "location": "立山室堂平",
+            "isWild": true,
+            "description": ""
+        },
+        {
+            "id": "pyrrhula_pyrrhula_202607241508",
+            "location": "立山室堂平",
+            "isWild": true,
+            "description": ""
+        }
+    ]
+}
