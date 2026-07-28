@@ -7,11 +7,12 @@ import { Navbar } from "@/components/nav-bar";
 import { Lang } from "@/types/lang";
 import { formatScientificName } from "@/lib/utils"
 import { getImageUrl, getObservationDate } from "@/lib/image"
+import { SpeciesData } from "@/types/zoology";
 
-function getName(data: any, lang: Lang) {
-    if (lang === "cn") return data["name-cn"];
-    if (lang === "jp") return data["name-jp"];
-    return data["name"];
+function getName(data: SpeciesData, lang: Lang) {
+    if (lang === "cn") return data["name-cn"] ?? data.id;
+    if (lang === "jp") return data["name-jp"] ?? data.id;
+    return data.id;
 }
 
 function detectLang(): Lang {
@@ -28,7 +29,7 @@ function detectLang(): Lang {
 export default function SpeciesPageClient({
     data,
 }: {
-    data: any;
+    data: SpeciesData;
 }) {
     const [lang, setLang] = useState<Lang>(() => {
         if (typeof window !== "undefined") {
@@ -45,8 +46,8 @@ export default function SpeciesPageClient({
     const [currentIndex, setCurrentIndex] =
         useState(0);
 
-    const currentPhoto =
-        data.photos[currentIndex];
+    const currentPhoto = data.photos[currentIndex];
+    const hasPhotos = data.photos.length > 0;
 
     function prevPhoto() {
         setCurrentIndex((prev) =>
@@ -87,6 +88,7 @@ export default function SpeciesPageClient({
 
                 {/* Main Viewer */}
 
+                {hasPhotos && currentPhoto ? (
                 <section className="species-main-photo">
 
                     <div className="viewer-wrapper">
@@ -172,11 +174,16 @@ export default function SpeciesPageClient({
                     </div>
 
                 </section>
+                ) : (
+                    <section className="species-description">
+                        <p>No photos are available for this species yet.</p>
+                    </section>
+                )}
 
                 {/* Description */}
 
                 <section className="species-description">
-                    <p>{data.description}</p>
+                    {data.description && <p>{data.description}</p>}
                 </section>
 
                 {/* Thumbnail Strip */}
@@ -187,11 +194,7 @@ export default function SpeciesPageClient({
 
                     <div className="thumbnail-grid">
 
-                        {data.photos.map(
-                            (
-                                photo: any,
-                                index: number
-                            ) => (
+                        {data.photos.map((photo, index) => (
                                 <button
                                     key={photo.id}
                                     className={
@@ -210,8 +213,7 @@ export default function SpeciesPageClient({
                                         height={200}
                                     />
                                 </button>
-                            )
-                        )}
+                        ))}
 
                     </div>
 

@@ -1,8 +1,14 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+import { ReactNode } from "react";
 
-export function BackButton({ children, fallback = "/", }: any) {
+type BackButtonProps = {
+    children?: ReactNode;
+    fallback?: string;
+};
+
+export function BackButton({ children, fallback = "/" }: BackButtonProps) {
     const router = useRouter();
 
     function handleBack() {

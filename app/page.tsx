@@ -25,14 +25,13 @@ export default function Home() {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true);
+    const frame = requestAnimationFrame(() => {
+      const saved = localStorage.getItem("lang") as Lang | null;
+      setLang(saved ?? detectLang());
+      setMounted(true);
+    });
 
-    const saved = localStorage.getItem("lang") as Lang;
-    if (saved) {
-      setLang(saved);
-    } else {
-      setLang(detectLang());
-    }
+    return () => cancelAnimationFrame(frame);
   }, []);
 
   useEffect(() => {

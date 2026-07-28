@@ -5,15 +5,16 @@ import { Navbar } from "@/components/nav-bar";
 import { TreeNode } from "@/components/tree-node";
 import { Lang } from "@/types/lang";
 import { formatScientificName } from "@/lib/utils"
+import { TaxonomyData } from "@/types/zoology";
 
 type Props = {
-    data: any;
+    data: TaxonomyData;
     className: string;
 };
 
-function getName(data: any, lang: Lang) {
-    if (lang === "cn") return data["name-cn"];
-    if (lang === "jp") return data["name-jp"];
+function getName(data: TaxonomyData, lang: Lang) {
+    if (lang === "cn") return data["name-cn"] ?? data.name;
+    if (lang === "jp") return data["name-jp"] ?? data.name;
     return data["name"];
 }
 

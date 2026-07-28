@@ -4,14 +4,15 @@ import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 import { formatScientificName } from "@/lib/utils";
 import { Lang } from "@/types/lang";
+import { IconNode } from "@/types/zoology";
 
-function getName(node: any, lang: Lang) {
-    if (lang === "cn") return node["name-cn"];
-    if (lang === "jp") return node["name-jp"];
+function getName(node: IconNode, lang: Lang) {
+    if (lang === "cn") return node["name-cn"] ?? node.name;
+    if (lang === "jp") return node["name-jp"] ?? node.name;
     return node["name"];
 }
 
-function renderName(node: any, lang: Lang) {
+function renderName(node: IconNode, lang: Lang) {
     const formattedName = formatScientificName(node.name);
     const displayName = getName(node, lang);
 
@@ -33,7 +34,7 @@ export function IconGrid({
     className,
     lang
 }: {
-    items: any[];
+    items: IconNode[];
     className: string;
     lang: Lang;
 }) {
