@@ -1,0 +1,21 @@
+{
+    "id": "megacrania_tsudai",
+    "class": "insecta",
+    "order": "phasmatodea",
+    "name-jp": "ツダナナフシ",
+    "name-cn": "津田氏大头竹节虫",
+    "photos": [
+        {
+            "id": "megacrania_tsudai_202407201337",
+            "location": "多摩動物公園",
+            "isWild": false,
+            "description": ""
+        },
+        {
+            "id": "megacrania_tsudai_202409221146",
+            "location": "多摩動物公園",
+            "isWild": false,
+            "description": ""
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+  "class": "insecta",
+  "order": "phasmatodea",
+  "name": "phasmatodea",
+  "name-jp": "ナナフシ目",
+  "name-cn": "竹节虫目",
+  "type": "order",
+  "children": [
+    {
+      "name": "verophasmatodea",
+      "name-jp": "ナナフシ亜目",
+      "name-cn": "真䗛亚目",
+      "type": "suborder",
+      "children": [
+        {
+          "name": "anareolatae",
+          "name-jp": "ナナフシ下目",
+          "name-cn": "胫平下目",
+          "type": "infraorder",
+          "children": [
+            {
+              "name": "phasmatidae",
+              "name-jp": "ナナフシ科",
+              "name-cn": "竹节虫科",
+              "type": "family",
+              "children": [
+                {
+                  "name": "clitumninae",
+                  "name-jp": "トガリナナフシ亜科",
+                  "name-cn": "克竹节虫亚科",
+                  "type": "subfamily",
+                  "children": [
+                    {
+                      "name": "entoria",
+                      "name-jp": "トガリナナフシ属",
+                      "name-cn": "长肛竹节虫属",
+                      "type": "genus",
+                      "icon-children": [
+                        {
+                          "name": "entoria nuda",
+                          "name-jp": "オキナワトガリナナフシ",
+                          "name-cn": "平肢长肛竹节虫",
+                          "type": "species",
+                          "icon": "/icon/オキナワトガリナナフシ.jpg",
+                          "hasWild": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "megacraniinae",
+                  "name-jp": "メガクラニア亜科",
+                  "name-cn": "大头竹节虫亚科",
+                  "type": "subfamily",
+                  "children": [
+                    {
+                      "name": "megacrania",
+                      "name-jp": "ツダナナフシ属",
+                      "name-cn": "大头竹节虫属",
+                      "type": "genus",
+                      "icon-children": [
+                        {
+                          "name": "megacrania tsudai",
+                          "name-jp": "ツダナナフシ",
+                          "name-cn": "津田氏大头竹节虫",
+                          "type": "species",
+                          "icon": "/icon/ツダナナフシ.jpg",
+                          "hasWild": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

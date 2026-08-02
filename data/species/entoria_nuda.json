@@ -1,0 +1,15 @@
+{
+    "id": "entoria_nuda",
+    "class": "insecta",
+    "order": "phasmatodea",
+    "name-jp": "オキナワトガリナナフシ",
+    "name-cn": "平肢长肛竹节虫",
+    "photos": [
+        {
+            "id": "entoria_nuda_202407201320",
+            "location": "多摩動物公園",
+            "isWild": false,
+            "description": ""
+        }
+    ]
+}
