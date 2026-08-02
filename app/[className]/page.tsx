@@ -5,6 +5,7 @@ export async function generateStaticParams() {
     return [
         { className: "aves" },
         { className: "mammalia" },
+        { className: "insecta" },
     ]
 }
 

@@ -289,6 +289,20 @@ body {
   --lv8: #F9CBAA;
 }
 
+.body-insecta {
+  background: linear-gradient(to right, #A8C79F, #D5E4CF, #A8C79F);
+  font-family: "Noto Sans SC", "Noto Sans JP", sans-serif;
+
+  --lv1: #102D18;
+  --lv2: #183D21;
+  --lv3: #24512D;
+  --lv4: #32683A;
+  --lv5: #43804B;
+  --lv6: #5B995F;
+  --lv7: #7FB17E;
+  --lv8: #A8CBA3;
+}
+
 .head-background-base {
   width: 100%;
   height: 30dvh;
@@ -308,6 +322,10 @@ body {
 
 .head-background-mammalia {
   background-image: url(/image/head_mammalia.png);
+}
+
+.head-background-insecta {
+  background-image: url(/image/head_insecta.png);
 }
 
 .head-background-base::before {

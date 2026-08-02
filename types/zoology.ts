@@ -1,4 +1,4 @@
-export type ClassName = "aves" | "mammalia";
+export type ClassName = "aves" | "mammalia" | "insecta";
 
 export type LocalizedName = {
     name: string;

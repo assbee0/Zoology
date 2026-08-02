@@ -1,0 +1,136 @@
+{
+    "class": "insecta",
+    "name": "Insecta",
+    "name-jp": "昆虫綱",
+    "name-cn": "昆虫纲",
+    "children": [
+        {
+            "name": "Pterygota",
+            "name-jp": "有翅亜綱",
+            "name-cn": "有翅亚纲",
+            "children": [
+                {
+                    "name": "Palaeoptera",
+                    "name-jp": "旧翅下綱",
+                    "name-cn": "古翅下纲",
+                    "icon-children": [
+                        {
+                            "name": "Odonata",
+                            "name-jp": "蜻蛉目",
+                            "name-cn": "蜻蜓目",
+                            "icon": "/icon/シオカラトンボ.jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Neoptera",
+                    "name-jp": "新翅下綱",
+                    "name-cn": "新翅下纲",
+                    "children": [
+                        {
+                            "name": "Polyneoptera",
+                            "name-jp": "多新翅亜節",
+                            "name-cn": "复新翅类",
+                            "icon-children": [
+                                {
+                                    "name": "Orthoptera",
+                                    "name-jp": "直翅目",
+                                    "name-cn": "直翅目",
+                                    "icon": "/icon/ヒメクダマキモドキ.jpg"
+                                },
+                                {
+                                    "name": "Phasmatodea",
+                                    "name-jp": "ナナフシ目",
+                                    "name-cn": "竹节虫目",
+                                    "icon": "/icon/オキナワトガリナナフシ.jpg"
+                                }
+                            ],
+                            "children": [
+                                {
+                                    "name": "Dictyoptera",
+                                    "name-jp": "網翅上目",
+                                    "name-cn": "网翅总目",
+                                    "icon-children": [
+                                        {
+                                            "name": "Mantodea",
+                                            "name-jp": "カマキリ目",
+                                            "name-cn": "螳螂目",
+                                            "icon": "/icon/オオカマキリ.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Eumetabola",
+                            "name-jp": "新生類",
+                            "name-cn": "真变态类",
+                            "children": [
+                                {
+                                    "name": "Paraneoptera",
+                                    "name-jp": "準新翅亜節",
+                                    "name-cn": "准新翅类",
+                                    "icon-children": [
+                                        {
+                                            "name": "Hemiptera",
+                                            "name-jp": "半翅目",
+                                            "name-cn": "半翅目",
+                                            "icon": "/icon/ツヤアオカメムシ.jpg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Holometabola",
+                                    "name-jp": "完全変態亜節",
+                                    "name-cn": "内生翅类",
+                                    "icon-children": [
+                                        {
+                                            "name": "Hymenoptera",
+                                            "name-jp": "膜翅目",
+                                            "name-cn": "膜翅目",
+                                            "icon": "/icon/キボシアシナガバチ.jpg"
+                                        }
+                                    ],
+                                    "children": [
+                                        {
+                                            "name": "Coleopterodea",
+                                            "name-jp": "鞘翅上目",
+                                            "name-cn": "鞘翅总目",
+                                            "icon-children": [
+                                                {
+                                                    "name": "Coleoptera",
+                                                    "name-jp": "鞘翅目",
+                                                    "name-cn": "鞘翅目",
+                                                    "icon": "/icon/カブトムシ.jpg"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Panorpida",
+                                            "name-jp": "長節上目",
+                                            "name-cn": "蝎蛉总目",
+                                            "icon-children": [
+                                                {
+                                                    "name": "Lepidoptera",
+                                                    "name-jp": "鱗翅目",
+                                                    "name-cn": "鳞翅目",
+                                                    "icon": "/icon/アオタテハモドキ.jpg"
+                                                },
+                                                {
+                                                    "name": "Diptera",
+                                                    "name-jp": "双翅目",
+                                                    "name-cn": "双翅目",
+                                                    "icon": "/icon/アシブトハナアブ.jpg"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { Lang } from "@/types/lang";
 
-const classes = ["aves", "mammalia"];
+const classes = ["aves", "mammalia", "insecta"];
 
 function detectLang(): Lang {
   const lang = navigator.language.toLowerCase();
