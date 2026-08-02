@@ -1,0 +1,21 @@
+{
+    "id": "ischnura_senegalensis",
+    "class": "insecta",
+    "order": "odonata",
+    "name-jp": "アオモンイトトンボ",
+    "name-cn": "褐斑异痣蟌",
+    "photos": [
+        {
+            "id": "ischnura_senegalensis_202405251357",
+            "location": "よこはま動物園ズーラシア",
+            "isWild": true,
+            "description": ""
+        },
+        {
+            "id": "ischnura_senegalensis_202405251358",
+            "location": "よこはま動物園ズーラシア",
+            "isWild": true,
+            "description": ""
+        }
+    ]
+}

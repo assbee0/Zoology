@@ -1,0 +1,21 @@
+{
+    "id": "orthetrum_albistylum",
+    "class": "insecta",
+    "order": "odonata",
+    "name-jp": "シオカラトンボ",
+    "name-cn": "白尾灰蜻",
+    "photos": [
+        {
+            "id": "orthetrum_albistylum_202508161524",
+            "location": "稻香湖公园",
+            "isWild": true,
+            "description": ""
+        },
+        {
+            "id": "orthetrum_albistylum_202507191132",
+            "location": "埼玉県こども動物自然公園",
+            "isWild": true,
+            "description": ""
+        }
+    ]
+}

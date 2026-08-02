@@ -1,13 +1,13 @@
 {
     "total": {
-        "orders": 43,
-        "wildOrders": 19,
-        "families": 135,
-        "wildFamilies": 46,
-        "genera": 352,
-        "wildGenera": 85,
-        "species": 502,
-        "wildSpecies": 112
+        "orders": 44,
+        "wildOrders": 20,
+        "families": 139,
+        "wildFamilies": 50,
+        "genera": 359,
+        "wildGenera": 92,
+        "species": 510,
+        "wildSpecies": 120
     },
     "classes": [
         {
@@ -31,6 +31,17 @@
             "wildGenera": 5,
             "species": 188,
             "wildSpecies": 6
+        },
+        {
+            "name": "INSECTA",
+            "orders": 1,
+            "wildOrders": 1,
+            "families": 4,
+            "wildFamilies": 4,
+            "genera": 7,
+            "wildGenera": 7,
+            "species": 8,
+            "wildSpecies": 8
         }
     ]
 }

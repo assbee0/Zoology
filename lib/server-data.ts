@@ -16,5 +16,5 @@ export function getOrderData(order: string): TaxonomyData {
 }
 
 export function getAllClasses() {
-    return ["aves", "mammalia"];
+    return ["aves", "mammalia", "insecta"];
 }

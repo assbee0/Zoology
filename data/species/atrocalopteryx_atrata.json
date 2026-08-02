@@ -1,0 +1,21 @@
+{
+    "id": "atrocalopteryx_atrata",
+    "class": "insecta",
+    "order": "odonata",
+    "name-jp": "ハグロトンボ",
+    "name-cn": "黑暗色蟌",
+    "photos": [
+        {
+            "id": "atrocalopteryx_atrata_202507191136",
+            "location": "埼玉県こども動物自然公園",
+            "isWild": true,
+            "description": ""
+        },
+        {
+            "id": "atrocalopteryx_atrata_202507191142",
+            "location": "埼玉県こども動物自然公園",
+            "isWild": true,
+            "description": ""
+        }
+    ]
+}

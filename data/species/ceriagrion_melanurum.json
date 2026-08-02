@@ -1,0 +1,15 @@
+{
+    "id": "ceriagrion_melanurum",
+    "class": "insecta",
+    "order": "odonata",
+    "name-jp": "キイトトンボ",
+    "name-cn": "短尾黄蟌",
+    "photos": [
+        {
+            "id": "ceriagrion_melanurum_202507051311",
+            "location": "多摩動物公園",
+            "isWild": true,
+            "description": ""
+        }
+    ]
+}

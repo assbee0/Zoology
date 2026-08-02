@@ -1,0 +1,33 @@
+{
+    "id": "crocothemis_servilia",
+    "class": "insecta",
+    "order": "odonata",
+    "name-jp": "ショウジョウトンボ",
+    "name-cn": "红蜻",
+    "photos": [
+        {
+            "id": "crocothemis_servilia_202407201305",
+            "location": "多摩動物公園",
+            "isWild": true,
+            "description": ""
+        },
+        {
+            "id": "crocothemis_servilia_202407201306",
+            "location": "多摩動物公園",
+            "isWild": true,
+            "description": ""
+        },
+        {
+            "id": "crocothemis_servilia_202507051616",
+            "location": "多摩動物公園",
+            "isWild": true,
+            "description": ""
+        },
+        {
+            "id": "crocothemis_servilia_202508101345",
+            "location": "雁栖湖",
+            "isWild": true,
+            "description": ""
+        }
+    ]
+}

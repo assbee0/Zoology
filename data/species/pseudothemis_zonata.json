@@ -1,0 +1,15 @@
+{
+    "id": "pseudothemis_zonata",
+    "class": "insecta",
+    "order": "odonata",
+    "name-jp": "コシアキトンボ",
+    "name-cn": "玉带蜻",
+    "photos": [
+        {
+            "id": "pseudothemis_zonata_202508161452",
+            "location": "稻香湖公园",
+            "isWild": true,
+            "description": ""
+        }
+    ]
+}
