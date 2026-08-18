@@ -64,6 +64,12 @@
             "location": "上海世纪公园",
             "isWild": true,
             "description": ""
+        },
+        {
+            "id": "nycticorax_nycticorax_202608141330",
+            "location": "北京动物园",
+            "isWild": false,
+            "description": ""
         }
     ]
 }

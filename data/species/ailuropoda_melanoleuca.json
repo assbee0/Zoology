@@ -40,6 +40,12 @@
             "location": "北京动物园",
             "isWild": false,
             "description": ""
+        },
+        {
+            "id": "ailuropoda_melanoleuca_202608141308",
+            "location": "北京动物园",
+            "isWild": false,
+            "description": ""
         }
     ]
 }
