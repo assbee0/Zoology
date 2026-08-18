@@ -34,6 +34,12 @@
             "location": "井の頭恩賜公園",
             "isWild": true,
             "description": ""
+        },
+        {
+            "id": "tachybaptus_ruficollis_202608140704",
+            "location": "奥林匹克森林公园",
+            "isWild": true,
+            "description": ""
         }
     ]
 }

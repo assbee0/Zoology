@@ -181,6 +181,30 @@
           ]
         },
         {
+          "name": "botaurinae",
+          "name-jp": "サンカノゴイ亜科",
+          "name-cn": "麻鳽亚科",
+          "type": "subfamily",
+          "children": [
+            {
+              "name": "botaurus",
+              "name-jp": "サンカノゴイ属",
+              "name-cn": "麻鳽属",
+              "type": "genus",
+              "icon-children": [
+                {
+                  "name": "botaurus sinensis",
+                  "name-jp": "ヨシゴイ",
+                  "name-cn": "黄苇鳽",
+                  "type": "species",
+                  "icon": "/icon/ヨシゴイ.jpg",
+                  "hasWild": true
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "ardeinae",
           "name-jp": "サギ亜科",
           "name-cn": "鹭亚科",

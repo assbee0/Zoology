@@ -4,10 +4,10 @@
         "wildOrders": 20,
         "families": 140,
         "wildFamilies": 50,
-        "genera": 361,
-        "wildGenera": 92,
-        "species": 512,
-        "wildSpecies": 121
+        "genera": 362,
+        "wildGenera": 93,
+        "species": 513,
+        "wildSpecies": 122
     },
     "classes": [
         {
@@ -16,10 +16,10 @@
             "wildOrders": 16,
             "families": 77,
             "wildFamilies": 42,
-            "genera": 215,
-            "wildGenera": 80,
-            "species": 314,
-            "wildSpecies": 107
+            "genera": 216,
+            "wildGenera": 81,
+            "species": 315,
+            "wildSpecies": 108
         },
         {
             "name": "MAMMALIA",

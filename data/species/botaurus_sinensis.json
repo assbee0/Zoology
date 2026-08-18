@@ -1,0 +1,21 @@
+{
+    "id": "botaurus_sinensis",
+    "class": "aves",
+    "order": "pelecaniformes",
+    "name-jp": "ヨシゴイ",
+    "name-cn": "黄苇鳽",
+    "photos": [
+        {
+            "id": "botaurus_sinensis_202608140711_1",
+            "location": "奥林匹克森林公园",
+            "isWild": true,
+            "description": ""
+        },
+        {
+            "id": "botaurus_sinensis_202608140711_2",
+            "location": "奥林匹克森林公园",
+            "isWild": true,
+            "description": ""
+        }
+    ]
+}
