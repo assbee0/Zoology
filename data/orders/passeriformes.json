@@ -111,6 +111,22 @@
                   "type": "family",
                   "children": [
                     {
+                      "name": "pyrrhocorax",
+                      "name-jp": "ベニハシガラス属",
+                      "name-cn": "山鸦属",
+                      "type": "genus",
+                      "icon-children": [
+                        {
+                          "name": "pyrrhocorax pyrrhocorax",
+                          "name-jp": "ベニハシガラス",
+                          "name-cn": "红嘴山鸦",
+                          "type": "species",
+                          "icon": "/icon/ベニハシガラス.jpg",
+                          "hasWild": false
+                        }
+                      ]
+                    },
+                    {
                       "name": "urocissa",
                       "name-jp": "サンジャク属",
                       "name-cn": "蓝鹊属",

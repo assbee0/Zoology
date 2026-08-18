@@ -1,0 +1,15 @@
+{
+    "id": "pyrrhocorax_pyrrhocorax",
+    "class": "aves",
+    "order": "passeriformes",
+    "name-jp": "ベニハシガラス",
+    "name-cn": "红嘴山鸦",
+    "photos": [
+        {
+            "id": "pyrrhocorax_pyrrhocorax_202608141410",
+            "location": "北京动物园",
+            "isWild": false,
+            "description": ""
+        }
+    ]
+}

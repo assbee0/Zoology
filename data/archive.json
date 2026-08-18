@@ -4,9 +4,9 @@
         "wildOrders": 20,
         "families": 141,
         "wildFamilies": 51,
-        "genera": 365,
+        "genera": 366,
         "wildGenera": 95,
-        "species": 518,
+        "species": 519,
         "wildSpecies": 124
     },
     "classes": [
@@ -16,9 +16,9 @@
             "wildOrders": 16,
             "families": 78,
             "wildFamilies": 43,
-            "genera": 218,
+            "genera": 219,
             "wildGenera": 83,
-            "species": 318,
+            "species": 319,
             "wildSpecies": 110
         },
         {
