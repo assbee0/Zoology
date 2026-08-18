@@ -1,0 +1,15 @@
+{
+    "id": "upupa_epops",
+    "class": "aves",
+    "order": "bucerotiformes",
+    "name-jp": "ヤツガシラ",
+    "name-cn": "戴胜",
+    "photos": [
+        {
+            "id": "upupa_epops_202608101204",
+            "location": "云冈石窟",
+            "isWild": true,
+            "description": ""
+        }
+    ]
+}

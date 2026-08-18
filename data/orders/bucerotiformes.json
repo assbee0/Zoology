@@ -7,6 +7,38 @@
   "type": "order",
   "children": [
     {
+      "name": "upupi",
+      "name-jp": "ヤツガシラ亜目",
+      "name-cn": "戴胜亚目",
+      "type": "suborder",
+      "children": [
+        {
+          "name": "upupidae",
+          "name-jp": "ヤツガシラ科",
+          "name-cn": "戴胜科",
+          "type": "family",
+          "children": [
+            {
+              "name": "upupa",
+              "name-jp": "ヤツガシラ属",
+              "name-cn": "戴胜属",
+              "type": "genus",
+              "icon-children": [
+                {
+                  "name": "upupa epops",
+                  "name-jp": "ヤツガシラ",
+                  "name-cn": "戴胜",
+                  "type": "species",
+                  "icon": "/icon/ヤツガシラ.jpg",
+                  "hasWild": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "buceroti",
       "name-jp": "サイチョウ亜目",
       "name-cn": "犀鸟亚目",
