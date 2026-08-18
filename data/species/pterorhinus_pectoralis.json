@@ -1,0 +1,15 @@
+{
+    "id": "pterorhinus_pectoralis",
+    "class": "aves",
+    "order": "passeriformes",
+    "name-jp": "クビワガビチョウ",
+    "name-cn": "黑领噪鹛",
+    "photos": [
+        {
+            "id": "pterorhinus_pectoralis_202608141403",
+            "location": "北京动物园",
+            "isWild": false,
+            "description": ""
+        }
+    ]
+}

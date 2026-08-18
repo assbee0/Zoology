@@ -633,6 +633,14 @@
                               "type": "species",
                               "icon": "/icon/タイカンチョウ.jpg",
                               "hasWild": false
+                            },
+                            {
+                              "name": "pterorhinus pectoralis",
+                              "name-jp": "クビワガビチョウ",
+                              "name-cn": "黑领噪鹛",
+                              "type": "species",
+                              "icon": "/icon/クビワガビチョウ.jpg",
+                              "hasWild": false
                             }
                           ]
                         }
