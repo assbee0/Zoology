@@ -1,0 +1,15 @@
+{
+    "id": "cervus_albirostris",
+    "class": "mammalia",
+    "order": "artiodactyla",
+    "name-jp": "クチジロジカ",
+    "name-cn": "白唇鹿",
+    "photos": [
+        {
+            "id": "cervus_albirostris_202608141523",
+            "location": "北京动物园",
+            "isWild": false,
+            "description": ""
+        }
+    ]
+}

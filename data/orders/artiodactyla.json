@@ -309,6 +309,22 @@
                       "type": "tribe",
                       "children": [
                         {
+                          "name": "cervus",
+                          "name-jp": "シカ属",
+                          "name-cn": "鹿属",
+                          "type": "genus",
+                          "icon-children": [
+                            {
+                              "name": "cervus albirostris",
+                              "name-jp": "クチジロジカ",
+                              "name-cn": "白唇鹿",
+                              "type": "species",
+                              "icon": "/icon/クチジロジカ.jpg",
+                              "hasWild": false
+                            }
+                          ]
+                        },
+                        {
                           "name": "elaphurus",
                           "name-jp": "シフゾウ属",
                           "name-cn": "麋鹿属",
