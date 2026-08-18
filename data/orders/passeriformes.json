@@ -517,6 +517,22 @@
                       "type": "family",
                       "children": [
                         {
+                          "name": "paradoxornis",
+                          "name-jp": "カオジロダルマエナガ属",
+                          "name-cn": "震旦鸦雀属",
+                          "type": "genus",
+                          "icon-children": [
+                            {
+                              "name": "paradoxornis heudei",
+                              "name-jp": "カオジロダルマエナガ",
+                              "name-cn": "震旦鸦雀",
+                              "type": "species",
+                              "icon": "/icon/カオジロダルマエナガ.jpg",
+                              "hasWild": true
+                            }
+                          ]
+                        },
+                        {
                           "name": "suthora",
                           "name-jp": "ダルマエナガ属",
                           "name-cn": "鸦雀属",

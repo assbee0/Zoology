@@ -1,0 +1,15 @@
+{
+    "id": "paradoxornis_heudei",
+    "class": "aves",
+    "order": "passeriformes",
+    "name-jp": "カオジロダルマエナガ",
+    "name-cn": "震旦鸦雀",
+    "photos": [
+        {
+            "id": "paradoxornis_heudei_202608140647",
+            "location": "奥林匹克森林公园",
+            "isWild": true,
+            "description": ""
+        }
+    ]
+}
