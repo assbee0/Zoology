@@ -22,6 +22,12 @@
             "location": "北京动物园",
             "isWild": false,
             "description": ""
+        },
+        {
+            "id": "macaca_mulatta_202608141319",
+            "location": "北京动物园",
+            "isWild": false,
+            "description": ""
         }
     ]
 }

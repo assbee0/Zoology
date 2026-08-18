@@ -22,6 +22,12 @@
             "location": "千葉市動物公園",
             "isWild": false,
             "description": ""
+        },
+        {
+            "id": "tapirus_indicus_202608141423",
+            "location": "北京动物园",
+            "isWild": false,
+            "description": ""
         }
     ]
 }

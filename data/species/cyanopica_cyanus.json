@@ -16,6 +16,12 @@
             "location": "奥林匹克森林公园",
             "isWild": true,
             "description": ""
+        },
+        {
+            "id": "cyanopica_cyanus_202608141505",
+            "location": "北京动物园",
+            "isWild": true,
+            "description": ""
         }
     ]
 }

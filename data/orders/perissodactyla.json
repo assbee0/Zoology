@@ -85,6 +85,14 @@
                       "type": "species",
                       "icon": "/icon/アジアノロバ.jpg",
                       "hasWild": false
+                    },
+                    {
+                      "name": "equus kiang",
+                      "name-jp": "キャン",
+                      "name-cn": "藏野驴",
+                      "type": "species",
+                      "icon": "/icon/キャン.jpg",
+                      "hasWild": false
                     }
                   ]
                 }

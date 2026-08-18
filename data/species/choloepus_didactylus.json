@@ -16,6 +16,12 @@
             "location": "北京野生动物园",
             "isWild": false,
             "description": ""
+        },
+        {
+            "id": "choloepus_didactylus_202608141427",
+            "location": "北京动物园",
+            "isWild": false,
+            "description": ""
         }
     ]
 }

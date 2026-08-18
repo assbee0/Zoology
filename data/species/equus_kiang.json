@@ -1,0 +1,15 @@
+{
+    "id": "equus_kiang",
+    "class": "mammalia",
+    "order": "perissodactyla",
+    "name-jp": "キャン",
+    "name-cn": "藏野驴",
+    "photos": [
+        {
+            "id": "equus_kiang_202608141509",
+            "location": "北京动物园",
+            "isWild": false,
+            "description": ""
+        }
+    ]
+}
