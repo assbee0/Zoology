@@ -500,7 +500,7 @@
                       "name-cn": "灰雁",
                       "type": "species",
                       "icon": "/icon/ハイイロガン.jpg",
-                      "hasWild": false
+                      "hasWild": true
                     },
                     {
                       "name": "anser caerulescens",

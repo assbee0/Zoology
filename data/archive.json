@@ -7,7 +7,7 @@
         "genera": 361,
         "wildGenera": 92,
         "species": 512,
-        "wildSpecies": 120
+        "wildSpecies": 121
     },
     "classes": [
         {
@@ -19,7 +19,7 @@
             "genera": 215,
             "wildGenera": 80,
             "species": 314,
-            "wildSpecies": 106
+            "wildSpecies": 107
         },
         {
             "name": "MAMMALIA",

@@ -6,6 +6,12 @@
     "name-cn": "灰雁",
     "photos": [
         {
+            "id": "anser_anser_202608140815",
+            "location": "奥林匹克森林公园",
+            "isWild": true,
+            "description": ""
+        },
+        {
             "id": "anser_anser_202407201020",
             "location": "多摩動物公園",
             "isWild": false,
