@@ -10,6 +10,18 @@
             "location": "三宅島阿古",
             "isWild": true,
             "description": ""
+        },
+        {
+            "id": "lanius_bucephalus_202610311154",
+            "location": "東京都多摩市関戸",
+            "isWild": true,
+            "description": ""
+        },
+        {
+            "id": "lanius_bucephalus_202610311214",
+            "location": "東京都多摩市関戸",
+            "isWild": true,
+            "description": ""
         }
     ]
 }
