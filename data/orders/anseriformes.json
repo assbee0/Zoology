@@ -343,6 +343,14 @@
                   "type": "genus",
                   "icon-children": [
                     {
+                      "name": "mareca falcata",
+                      "name-jp": "ヨシガモ",
+                      "name-cn": "罗纹鸭",
+                      "type": "species",
+                      "icon": "/icon/ヨシガモ.jpg",
+                      "hasWild": true
+                    },
+                    {
                       "name": "mareca penelope",
                       "name-jp": "ヒドリガモ",
                       "name-cn": "赤颈鸭",
