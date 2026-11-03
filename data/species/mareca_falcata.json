@@ -1,0 +1,15 @@
+{
+    "id": "mareca_falcata",
+    "class": "aves",
+    "order": "anseriformes",
+    "name-jp": "ヨシガモ",
+    "name-cn": "罗纹鸭",
+    "photos": [
+        {
+            "id": "mareca_falcata_202611031527",
+            "location": "善福寺公園",
+            "isWild": true,
+            "description": ""
+        }
+    ]
+}
