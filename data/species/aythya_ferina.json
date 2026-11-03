@@ -6,6 +6,12 @@
     "name-cn": "红头潜鸭",
     "photos": [
         {
+            "id": "aythya_ferina_202611031619",
+            "location": "善福寺公園",
+            "isWild": true,
+            "description": ""
+        },
+        {
             "id": "aythya_ferina_202505111331",
             "location": "東京港野鳥公園",
             "isWild": true,

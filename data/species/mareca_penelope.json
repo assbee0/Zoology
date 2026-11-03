@@ -34,6 +34,12 @@
             "location": "水元公園",
             "isWild": true,
             "description": ""
+        },
+        {
+            "id": "mareca_penelope_202611031554",
+            "location": "善福寺公園",
+            "isWild": true,
+            "description": ""
         }
     ]
 }

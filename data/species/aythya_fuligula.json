@@ -16,6 +16,12 @@
             "location": "不忍池",
             "isWild": true,
             "description": ""
+        },
+        {
+            "id": "aythya_fuligula_202611031618",
+            "location": "善福寺公園",
+            "isWild": true,
+            "description": ""
         }
     ]
 }

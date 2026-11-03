@@ -28,6 +28,12 @@
             "location": "新宿御苑",
             "isWild": true,
             "description": ""
+        },
+        {
+            "id": "spatula_clypeata_202611031510",
+            "location": "善福寺公園",
+            "isWild": true,
+            "description": ""
         }
     ]
 }

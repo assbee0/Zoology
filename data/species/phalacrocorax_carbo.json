@@ -28,6 +28,12 @@
             "location": "葛西臨海公園",
             "isWild": true,
             "description": ""
+        },
+        {
+            "id": "phalacrocorax_carbo_202611031347",
+            "location": "善福寺公園",
+            "isWild": true,
+            "description": ""
         }
     ]
 }

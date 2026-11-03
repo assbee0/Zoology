@@ -6,6 +6,12 @@
     "name-cn": "普通翠鸟",
     "photos": [
         {
+            "id": "alcedo_atthis_202611031541_1",
+            "location": "善福寺公園",
+            "isWild": true,
+            "description": ""
+        },
+        {
             "id": "alcedo_atthis_202408311618",
             "location": "上野動物園",
             "isWild": false,
@@ -18,14 +24,32 @@
             "description": ""
         },
         {
-            "id": "alcedo_atthis_202509141607",
+            "id": "alcedo_atthis_202509141608",
             "location": "石神井公園",
             "isWild": true,
             "description": ""
         },
         {
-            "id": "alcedo_atthis_202509141608",
-            "location": "石神井公園",
+            "id": "alcedo_atthis_202611031541_2",
+            "location": "善福寺公園",
+            "isWild": true,
+            "description": ""
+        },
+        {
+            "id": "alcedo_atthis_202611031542",
+            "location": "善福寺公園",
+            "isWild": true,
+            "description": ""
+        },
+        {
+            "id": "alcedo_atthis_202611031545",
+            "location": "善福寺公園",
+            "isWild": true,
+            "description": ""
+        },
+        {
+            "id": "alcedo_atthis_202611031546",
+            "location": "善福寺公園",
             "isWild": true,
             "description": ""
         }
