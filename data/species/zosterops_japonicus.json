@@ -40,6 +40,12 @@
             "location": "三宅島坪田",
             "isWild": true,
             "description": ""
+        },
+        {
+            "id": "zosterops_japonicus_202611221413",
+            "location": "北の丸公園",
+            "isWild": true,
+            "description": ""
         }
     ]
 }

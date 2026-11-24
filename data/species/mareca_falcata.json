@@ -6,8 +6,20 @@
     "name-cn": "罗纹鸭",
     "photos": [
         {
+            "id": "mareca_falcata_202611221222",
+            "location": "皇居東御苑",
+            "isWild": true,
+            "description": ""
+        },
+        {
             "id": "mareca_falcata_202611031527",
             "location": "善福寺公園",
+            "isWild": true,
+            "description": ""
+        },
+        {
+            "id": "mareca_falcata_202611221223",
+            "location": "皇居東御苑",
             "isWild": true,
             "description": ""
         }

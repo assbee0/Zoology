@@ -6,6 +6,12 @@
     "name-cn": "北红尾鸲",
     "photos": [
         {
+            "id": "phoenicurus_auroreus_202611221339",
+            "location": "千鳥ヶ淵公園",
+            "isWild": true,
+            "description": ""
+        },
+        {
             "id": "phoenicurus_auroreus_202501131520",
             "location": "多摩動物公園",
             "isWild": true,
@@ -26,6 +32,12 @@
         {
             "id": "phoenicurus_auroreus_202603211324",
             "location": "桜ヶ丘公園",
+            "isWild": true,
+            "description": ""
+        },
+        {
+            "id": "phoenicurus_auroreus_202611221344",
+            "location": "千鳥ヶ淵公園",
             "isWild": true,
             "description": ""
         }
