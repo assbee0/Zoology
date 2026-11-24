@@ -1,0 +1,21 @@
+{
+    "id": "mareca_strepera",
+    "class": "aves",
+    "order": "anseriformes",
+    "name-jp": "オカヨシガモ",
+    "name-cn": "赤膀鸭",
+    "photos": [
+        {
+            "id": "mareca_strepera_202611221221",
+            "location": "皇居東御苑",
+            "isWild": true,
+            "description": ""
+        },
+        {
+            "id": "mareca_strepera_202611221220",
+            "location": "皇居東御苑",
+            "isWild": true,
+            "description": ""
+        }
+    ]
+}

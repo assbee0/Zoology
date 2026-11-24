@@ -357,6 +357,14 @@
                       "type": "species",
                       "icon": "/icon/ヒドリガモ.jpg",
                       "hasWild": true
+                    },
+                    {
+                      "name": "mareca strepera",
+                      "name-jp": "オカヨシガモ",
+                      "name-cn": "赤膀鸭",
+                      "type": "species",
+                      "icon": "/icon/オカヨシガモ.jpg",
+                      "hasWild": true
                     }
                   ]
                 },
